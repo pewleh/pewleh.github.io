@@ -34,7 +34,7 @@
 }
 
 .contact-container{
-  margin-bottom: 10px;
+  margin-bottom: 5vh;
 }
 nav{
   display: flex;
@@ -59,4 +59,8 @@ a:hover{
 }
 li{
   list-style-type: none;
+}
+img{
+  width: 5vw;
+  padding: 30px;
 }
