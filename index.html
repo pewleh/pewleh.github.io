@@ -2,10 +2,110 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Personal website</title>
+    <title>Pewleh</title>
     <link rel="stylesheet" href="css/style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script src="app.js" charset="utf-8"></script>
+
   </head>
+  <header id='header'>
+    <nav>
+      <div class="navbar-left">
+      <a class="a-nav" href="#skills">S k i l l s</a>
+      <a class="a-nav" href="#experience">E x p e r i e n c e</a>
+    </div>
+      &nbsp;
+      <div class="navbar-right">
+      <a class="a-nav" href="#facts">F a c t s</a>
+      <a class="a-nav" href="#contact">C o n t a c t</a>
+    </nav>
+  </header>
   <body>
-    <h1> hellu world</h1>
+    <div class="container">
+      <div class="head-container">
+        <h1 class="head-title"> P E W L E H </h1>
+        <h2 class="head-subtitle">Full Stack Developer</h2>
+        <h3>Changing subtitle</h3>
+      </div>
+
+      <!-- <div class="about-container">
+        <h1 class="about-title"></h1>
+      </div> -->
+
+      <div class="skills-container" id="skills">
+        <h1 class="skills-title">Skills</h1>
+
+        <!-- buttons to switch info-box between front and back end skills -->
+        <button class="front">Front End</button>
+        <button class="back">Back End</button>
+        <button class="soft">Soft</button>
+
+        <div class="info-box">
+          <!-- front end content -->
+          <ul>
+            <li>•</li>
+            <li>• Languages:  HTML | CSS | JavaScript (ES6/ES7)</li>
+            <li>• Styling: CSS | SASS CSS Modules | Bulma</li>
+            <li>• JavaScript Libraries: jQuery | React |</li>
+            <li>• Testing Framework: Enzyme</li>
+            <li>• Testing: TDD/BDD | Test coverage</li>
+            <li>• Version control: Git</li>
+
+          </ul>
+          <!-- back end content -->
+          <ul>
+            <li>•</li>
+            <li>• Languages: EJS</li>
+            <li>• Libraries & Frameworks: Express (Morgan, Express Session)</li>
+            <li>• Databases:  MongoDB with Mongoose</li>
+            <li>• Architectural Patterns: MVC | OAuth | JWT | SPA | RESTful APIs</li>
+            <li>• Testing Libraries & Frameworks:  Mocha |  Chai | Supertest</li>
+
+          </ul>
+            <!-- soft content -->
+          <ul>
+            <li>•</li>
+            <li>• Fluent in English and Polish</li>
+            <li>• Learning Japanese, French, Italian</li>
+            <li>• I'm a people person. The more people the better.</li>
+            <li>• Team leadership experience</li>
+            <li>•</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="exp-container" id="experience">
+        <h1 class="exp-title"> Experience </h1>
+        <!-- Ga logo next to title (off the side maybe) -->
+        <h2>General Assembly</h2>
+        <p>This'll be a little description about Ga, ideally one long line, maybe even 2.</p>
+         <h1>Project 1 | Walk in the World</h1>
+         <p>HTML | CSS | JavaScript</p>
+
+         <h1>Project 2 | Restau-Rant</h1>
+         <p>HTML | CSS | JavaScript | Express</p>
+
+         <h1>Project 3 | Sky Gazer </h1>
+         <p>HTML | CSS | JavaScript |  Mongo | Express |  Angular | Node </p>
+
+         <h1>Project 4 | SketchBook</h1>
+         <p>HTML | CSS | JavaScript | Mongo | Express | React | Node</p>
+      </div>
+      <!-- will fill this out last. (bonus content) -->
+      <div class="facts-container" id="facts">
+        <h1 class="facts-title"></h1>
+      </div>
+
+      <div class="contact-container">
+        <h1 class="contact-title" id="contact">Contact me!</h1>
+        <!-- Will be replaced by icons.  -->
+        <p>LinkedIn: https://www.linkedin.com/in/paula-nowicka</p>
+        <p>Github: https://github.com/pewleh</p>
+        <p>Email: pewlehh@gmail.com</p>
+
+      </div>
+    </div>
   </body>
 </html>
