@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Pewleh</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" />
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <script src="app.js" charset="utf-8"></script>
@@ -15,7 +16,7 @@
       <a class="a-nav" href="#skills">S k i l l s</a>
       <a class="a-nav" href="#experience">E x p e r i e n c e</a>
     </div>
-      &nbsp;
+      <img class="nav-logo" src="images/favicon.ico">
       <div class="navbar-right">
       <a class="a-nav" href="#facts">F a c t s</a>
       <a class="a-nav" href="#contact">C o n t a c t</a>
@@ -34,50 +35,152 @@
       </div> -->
 
       <div class="skills-container" id="skills">
-        <h1 class="skills-title">Skills</h1>
-
-        <!-- buttons to switch info-box between front and back end skills -->
-        <button class="front">Front End</button>
-        <button class="back">Back End</button>
-        <button class="soft">Soft</button>
+        <h1 class="skills-title">S k i l l s</h1>
 
         <div class="info-box">
-          <!-- front end content -->
-          <ul>
-            <li>•</li>
-            <li>• Languages:  HTML | CSS | JavaScript (ES6/ES7)</li>
-            <li>• Styling: CSS | SASS CSS Modules | Bulma</li>
-            <li>• JavaScript Libraries: jQuery | React |</li>
-            <li>• Testing Framework: Enzyme</li>
-            <li>• Testing: TDD/BDD | Test coverage</li>
-            <li>• Version control: Git</li>
+      <div class="skill-line">
+        <div id="frontEnd" class="menu">Front End</div>
+        <div id="backEnd" class="menu">Back End</div>
+        <div id="softSkills" class="menu">Soft Skills</div>
+      </div>
 
-          </ul>
-          <!-- back end content -->
-          <ul>
-            <li>•</li>
-            <li>• Languages: EJS</li>
-            <li>• Libraries & Frameworks: Express (Morgan, Express Session)</li>
-            <li>• Databases:  MongoDB with Mongoose</li>
-            <li>• Architectural Patterns: MVC | OAuth | JWT | SPA | RESTful APIs</li>
-            <li>• Testing Libraries & Frameworks:  Mocha |  Chai | Supertest</li>
+      <img id="small-logo" src="images/tool-box.png" alt="tool-box">
+          <div id="frontBlock" class="middleBlock">
+            <div class="frontBlockContent leftblock">
+             <ul>
+              <div class="left-skills-container">
+                <li>Languages <br><br>
+                  <div id="hover-image">
+                    <div class="text hide">HTML 5</div> <a>
+                    <img src="images/html5.png" alt="HTML5" class="skill-img">
+                  </a>
+                  </div>
+                  <div id="hover-image">
+                    <div class="text hide">CSS 3</div> <a>
+                    <img src="images/css3.png" alt="CSS3" class="skill-img">
+                  </a>
+                  </div>
+                  <div id="hover-image">
+                    <div class="text hide">JavaScript</div> <a>
+                    <img src="images/js.png" alt="JavaScript" class="skill-img">
+                  </a>
+                  </div>
+              </li>
 
-          </ul>
-            <!-- soft content -->
+
+            <br>
+              <li>Styling<br><br>
+                <div id="hover-image">
+                  <div class="text hide">SCSS</div> <a>
+                  <img src="images/scss.png" alt="SCSS" class="skill-img">
+                </a>
+                </div>
+                <div id="hover-image">
+                  <div class="text hide">Bulma</div> <a>
+                  <img src="images/bulma.png" alt="JavaScript" class="skill-img">
+                </a>
+                </div>
+                 </li><br>
+              <li>JavaScript Libraries: <br><br>
+                <div id="hover-image">
+                  <div class="text hide">React</div> <a>
+                  <img src="images/react.png" alt="React" class="skill-img">
+                </a>
+                </div>
+                <div id="hover-image">
+                  <div class="text hide">jQuery</div> <a>
+                  <img src="images/jq.png" alt="jQuery" class="skill-img">
+                </a>
+                </div>
+                </li><br>
+              </div>
+              <div class="right-skills-container">
+              <li>Testing Framework:<br><br>
+                <div id="hover-image">
+                  <div class="text hide">Enzyme</div> <a>
+                  <img src="images/enzyme.png" alt="enzyme" class="skill-img">
+                </a>
+                </div>
+              </li><br>
+              <li>Testing:<br><br>
+                <div id="hover-image">
+                  <div class="text hide">TDD</div> <a>
+                  <img src="images/tdd.png" alt="TDD" class="skill-img">
+                </a>
+                </div>
+                <div id="hover-image">
+                  <div class="text hide">Test Coverage</div> <a>
+                  <img src="images/test-coverage.png" alt="Test Coverage" class="skill-img">
+                </a>
+                </div>
+               </li><br>
+              <li>Version control:<br><br>
+                <div id="hover-image">
+                  <div class="text hide">Git</div> <a>
+                  <img src="images/git.svg" alt="Git" class="skill-img">
+                </a>
+                </div>
+              </li>
+            </div>
+            </ul>
+            </div>
+          </div>
+
+
+      <div id="backBlock" class="middleBlock">
+        <div class="backBlockContent leftblock">
+          <ul>
+            <div class="left-skills-container">
+           <li>Languages:<br>
+             <div id="hover-image">
+               <div class="text hide">EJS</div> <a>
+               <img src="images/ejs.png" alt="EJS" class="skill-img">
+             </a>
+             </div>
+           </li><br>
+           <li>Libraries & Frameworks: <br>
+             <div id="hover-image">
+               <div class="text hide">Express</div> <a>
+               <img src="images/express.png" alt="Express" class="skill-img">
+             </a>
+             </div></li><br>
+           <li>Databases:<br>
+             <div id="hover-image">
+               <div class="text hide">Mongo</div> <a>
+                 <img src="images/mongo.png" alt="Mongo" class="skill-img">
+               </a>
+             </div> </li><br>
+           </div>
+           <div class="right2-skills-container">
+           <li>Architectural Patterns:<br> MVC | OAuth | JWT | SPA | RESTful APIs</li><br><br><br>
+           <li>Testing Libraries & Frameworks:<br>
+             <div id="hover-image">
+               <div class="text hide">Mongo &nbsp; Chai</div> <a>
+                 <img src="images/mocha-chai.png" alt="Mongo &nbsp; Chai" class="skill-img">
+               </a>
+             </div> Super Test</li>
+           </div>
+        </ul>
+        </div>
+      </div>
+      <div id="softBlock" class="middleBlock">
+        <div class="backBlockContent leftblock">
           <ul>
             <li>•</li>
-            <li>• Fluent in English and Polish</li>
-            <li>• Learning Japanese, French, Italian</li>
-            <li>• I'm a people person. The more people the better.</li>
-            <li>• Team leadership experience</li>
+            <li>Fluent in English and Polish</li><br>
+            <li>Learning Japanese, French, Italian</li><br>
+            <li>I'm a people person. The more people the better.</li><br>
+            <li>Team leadership experience</li>
             <li>•</li>
           </ul>
         </div>
-      </div>
+    </div>
+  </div>
+  </div>
 
 
       <div class="exp-container" id="experience">
-        <h1 class="exp-title"> Experience </h1>
+        <h1 class="exp-title"> E x p e r i e n c e </h1>
         <!-- Ga logo next to title (off the side maybe) -->
         <h2>General Assembly</h2>
         <p>This'll be a little description about Ga, ideally one long line, maybe even 2.</p>
@@ -99,16 +202,16 @@
       </div>
 
       <div class="contact-container">
-        <h1 class="contact-title" id="contact">Contact me!</h1>
+        <h1 class="contact-title" id="contact">C o n t a c t &nbsp; m e!</h1>
         <!-- Will be replaced by icons.  -->
         <a href="https://github.com/pewleh">
-          <img src="images/git.svg">
+          <img class="contact-icon" src="images/git.svg">
         </a>
         <a href="https://www.linkedin.com/in/paula-nowicka">
-          <img src="images/linkedin.png">
+          <img class="contact-icon" src="images/linkedin.png">
         </a>
         <a href="mailto:pewlehh@gmail.com">
-          <img src="images/email.png">
+          <img class="contact-icon" src="images/email.png">
         </a>
       </div>
     </div>
