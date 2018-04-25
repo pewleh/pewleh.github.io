@@ -41,6 +41,7 @@
 }
 .skill-line{
   margin-left: 3vw;
+  cursor: pointer;
 }
 .skill-img{
   max-width: 5vw;
