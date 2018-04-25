@@ -80,24 +80,28 @@ $(document).ready(function(){
   //will need to refactor
   //project switch->
   $('#proj1').click(function() {
+    $('#blueprint').hide();
     $('#firstBlock').show();
     $('#secondBlock').hide();
     $('#thirdBlock').hide();
     $('#fourthBlock').hide();
   });
   $('#proj2').click(function() {
+    $('#blueprint').hide();
     $('#firstBlock').hide();
     $('#secondBlock').show();
     $('#thirdBlock').hide();
     $('#fourthBlock').hide();
   });
   $('#proj3').click(function() {
+    $('#blueprint').hide();
     $('#firstBlock').hide();
     $('#secondBlock').hide();
     $('#thirdBlock').show();
     $('#fourthBlock').hide();
   });
   $('#proj4').click(function() {
+    $('#blueprint').hide();
     $('#firstBlock').hide();
     $('#secondBlock').hide();
     $('#thirdBlock').hide();
