@@ -18,6 +18,10 @@
 }
 .head-subtitle{
   font-size: 2vw;
+  margin-top: -3vh;
+}
+.title-subheading{
+
 }
 
 .skills-container{
@@ -68,19 +72,19 @@
 .left-skills-container{
   display: inline-block;
   width: 40vw;
-  margin-left: -38vw;
+  margin-left: -32vw;
   position: absolute;
 }
 .right-skills-container{
   display: inline-block;
   width: 25vw;
-  margin-left: 7vw;
+  margin-left: -2.5vw;
   position: absolute;
 }
 .right2-skills-container{
   display: inline-block;
   width: 25vw;
-  margin-left: 7vw;
+  margin-left: 2vw;
   position: absolute;
   margin-top: 10vh;
 }

@@ -20,12 +20,14 @@ $(document).ready(function(){
   });
 
   $('#backEnd').click(function() {
+    $('#small-logo').hide();
     $('#frontBlock').hide();
     $('#backBlock').show();
     $('#softBlock').hide();
   });
 
   $('#softSkills').click(function() {
+    $('#small-logo').hide();
     $('#frontBlock').hide();
     $('#backBlock').hide();
     $('#softBlock').show();
@@ -47,5 +49,30 @@ $(document).ready(function(){
       $('.text').addClass('hide');
     });
   });
-  //skill hover text end
+  //end skill hover text
+
+
+  //subheading changes
+  const subheadings = [ 'Animal Hugger',
+    'Nature Devotee',
+    'Wine, Beer and Spirit Enthusiast',
+    'Savoury treats > sweet',
+    'Art Aficionado',
+    'Cookin\' Queen',
+    'RPG and FPS Gamer',
+    'Captor and saviour of spider kind',
+    'I care a whole lot about a whole lot.'];
+  var count = 0;
+
+  function changeSubHeading() {
+    $('.title-subheading').fadeIn().delay(2000).fadeOut(function() {
+      changeSubHeading();
+    }).text(subheadings[count++]);
+    if (count === subheadings.length) {
+      count = 0;
+    }
+  }
+
+  changeSubHeading();
+  //end subheading changes
 });
