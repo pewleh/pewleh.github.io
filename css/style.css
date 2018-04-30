@@ -25,7 +25,7 @@
 }
 
 .skills-container{
-  height: 90vh;
+  height: 80vh;
   margin-top: 5vh;
 }
 
@@ -147,12 +147,15 @@ nav{
 }
 .navbar-right{
   margin-top: 6vh;
+  margin-right: 4vw;
 }
 .navbar-left{
   margin-top: 6vh;
+  margin-left: 2vw;
 }
 .a-nav{
   padding: 25px;
+  padding-left: 6vw;
   text-decoration: none;
 }
 a:link{
@@ -167,7 +170,7 @@ a:hover{
 .nav-logo{
   width: 15vw;
   height: 23vh;
-  margin-left: 7vw;
+  margin-left: 10vw;
 }
 li{
   list-style-type: none;
