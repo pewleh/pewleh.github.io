@@ -197,3 +197,25 @@ li{
   font-size: 15px;
   margin-left: 5vw;
 }
+
+.about-container{
+  height: 80vh;
+  border-bottom: 0.5px solid #d3d3d3;
+  border-top: 0.5px solid #d3d3d3;
+}
+
+.about-face{
+  width: 25vw;
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid #d3d3d3;
+  float: left;
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+.about-dev{
+  float: right;
+  margin-top: 16vh;
+  margin-right: 15vw;
+  width: 40vw;
+}
