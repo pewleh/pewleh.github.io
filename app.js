@@ -12,13 +12,14 @@ $(document).ready(function(){
 
   //subheading changes
   const subheadings = [ 'Animal Hugger',
+    'Captor and saviour of spider kind',
     'Nature Devotee',
     'Wine, Beer and Spirit Enthusiast',
     'Savoury treats > sweet',
     'Art Aficionado',
-    'Cookin\' Queen',
+    'Foodie',
+    'Star Gazer',
     'RPG and FPS Gamer',
-    'Captor and saviour of spider kind',
     'I care a whole lot about a whole lot.'];
   var count = 0;
 
