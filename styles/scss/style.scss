@@ -72,6 +72,7 @@
 
   #blueprint{
     width: 45vw;
+    margin-top: -20vh;
   }
   #small-logo{
     max-width: 30vw;
@@ -144,7 +145,7 @@
 }
 
 .exp-container{
-  height: 100vh;
+  height: 120vh;
   border-bottom: 0.5px solid #d3d3d3;
   border-top: 0.5px solid #d3d3d3;
   @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
@@ -162,8 +163,14 @@
     }
   }
   .skill-line{
-    margin-left: 60vw;
-    margin-top: 2vh;
+    margin-top: 1vh;
+    padding: 4vh;
+    cursor: pointer;
+    display: inline-flex;
+    height:10vh;
+    .menu{
+      margin-left: 5vw;
+    }
       @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
         font-size: 19px;
         margin-top:-8vh;
@@ -314,8 +321,9 @@ li{
     text-decoration: none;
     @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
       font-size: 20px;
+      }
     }
-    }
+
   .links2{
     font-size: 20px;
     margin-top:38vh;
