@@ -7,18 +7,26 @@
     display: flex;
     justify-content: space-between;
     font-size: 140%; }
+    * nav header {
+      display: inline-flex; }
     * nav .navbar-right {
       margin-top: 6vh;
       margin-right: 4vw; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
         * nav .navbar-right {
-          display: none; } }
+          margin-top: 56vh;
+          position: absolute;
+          font-size: 18px;
+          margin-left: 10vw; } }
     * nav .navbar-left {
       margin-top: 6vh;
       margin-left: 2vw; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
         * nav .navbar-left {
-          display: none; } }
+          margin-top: 56vh;
+          position: absolute;
+          margin-left: 52vw;
+          font-size: 18px; } }
     * nav .a-nav {
       padding: 25px;
       padding-left: 6vw;
@@ -199,7 +207,8 @@
       display: inline-flex;
       height: 10vh; }
       * .exp-container .skill-line .menu {
-        margin-left: 5vw; }
+        margin-left: 4.3vw;
+        font-size: 18px; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
         * .exp-container .skill-line {
           font-size: 19px;
@@ -275,10 +284,10 @@
       font-size: 24px;
       text-decoration: none;
       font-family: 'EB Garamond', serif; }
+    * .exp-container .link:hover {
+      color: #3166a9; }
   * li {
     list-style-type: none; }
-  * li:hover {
-    color: #3166a9; }
   * .disclaimer {
     font-size: 15px;
     margin-left: 5vw; }
@@ -289,5 +298,7 @@
     * .contact-container .contact-icon {
       width: 5vw;
       padding: 20px; }
+  * .menu:hover {
+    color: #3166a9; }
 
 /*# sourceMappingURL=style.css.map */

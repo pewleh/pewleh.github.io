@@ -15,19 +15,27 @@
       font-size: 140%;
       @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
       }
-
+      header{
+        display: inline-flex;
+      }
       .navbar-right{
         margin-top: 6vh;
         margin-right: 4vw;
         @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-          display: none;
+          margin-top: 56vh;
+          position: absolute;
+          font-size: 18px;
+          margin-left: 10vw;
         }
       }
       .navbar-left{
         margin-top: 6vh;
         margin-left: 2vw;
         @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-          display:none;
+          margin-top: 56vh;
+          position: absolute;
+          margin-left: 52vw;
+          font-size: 18px;
         }
       }
 
@@ -59,7 +67,7 @@
         }
       }
     }
-    
+
   //SECTION 1 -> LOGO
   .head-container{
     height: 62vh;
@@ -161,6 +169,7 @@
       margin-left: 3vw;
       cursor: pointer;
     }
+
 
     .skill-img{
       max-width: 5vw;
@@ -270,7 +279,8 @@
       display: inline-flex;
       height:10vh;
       .menu{
-        margin-left: 5vw;
+        margin-left: 4.3vw;
+        font-size: 18px;
       }
       @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
         font-size: 19px;
@@ -375,14 +385,15 @@
       text-decoration: none;
       font-family: 'EB Garamond', serif;
     }
+    .link:hover{
+      color: #3166a9;
+    }
   }
 
   li{
     list-style-type: none;
   }
-  li:hover{
-    color: #3166a9;
-  }
+
 
   .disclaimer{
     font-size: 15px;
@@ -399,5 +410,9 @@
       width: 5vw;
       padding: 20px;
     }
+  }
+  //Features
+  .menu:hover{
+    color: #3166a9;
   }
 }
