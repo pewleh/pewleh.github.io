@@ -160,24 +160,23 @@ nav{
   display: flex;
   justify-content: space-between;
   font-size: 140%;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+}
 
 }
 .navbar-right{
   margin-top: 6vh;
   margin-right: 4vw;
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    font-size: 50%;
-    float: right;
-    z-index: 1;
-    display:none;
+    display: none;
   }
 }
 .navbar-left{
   margin-top: 6vh;
   margin-left: 2vw;
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  display:none;
-}
+    display:none;
+  }
 }
 .a-nav{
   padding: 25px;
@@ -201,9 +200,8 @@ a:hover{
 
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     width:45vw;
-    margin-top: 12vh;
-    margin-left: 26vw;
-
+    padding-top: 12vh;
+    margin-left: 25.5vw;
   }
 }
 
@@ -240,6 +238,9 @@ li{
   height: 80vh;
   border-bottom: 0.5px solid #d3d3d3;
   border-top: 0.5px solid #d3d3d3;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    height: 70vh;
+}
 
 
 .about-face{
@@ -250,12 +251,21 @@ li{
   float: left;
   margin-left: 10vw;
   margin-top: 2vh;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    width: 40vw;
+    margin-left: 27.5vw;
+}
 }
 .about-dev{
   float: right;
   margin-top: 16vh;
   margin-right: 15vw;
   width: 40vw;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    width: 70vw;
+    font-size: 13px;
+    margin-top: 2vh;
+}
 }
 }
 }
