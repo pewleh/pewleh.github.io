@@ -11,7 +11,7 @@
 .head-container{
   height: 62vh;
   border-bottom: 0.5px solid #d3d3d3;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     height: 50vh;
 }
 
@@ -19,7 +19,7 @@
   font-size: 6vw;
   font-weight: lighter;
   margin-top: 12vh;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     font-size: 90px;
     margin-top: 2.5vh;
   }
@@ -27,13 +27,13 @@
 .head-subtitle{
   font-size: 2vw;
   margin-top: -3vh;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     font-size: 30px;
     margin-top: -3vh;
   }
 }
 .title-subheading{
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
   margin-top: 2vh;
   font-size: 30px;
 }
@@ -43,6 +43,8 @@
 .skills-container{
   height: 80vh;
   margin-top: 5vh;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    height:70vh;
 }
 
 .skill-line .menu{
@@ -54,6 +56,10 @@
     border-width: thin;
     border-color: #E5E5E5;
     font-size: 18px;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+      font-size: 30px;
+      margin-top: 5vh;
+}
 }
 .skill-line{
   margin-left: 3vw;
@@ -70,6 +76,9 @@
 }
 #small-logo{
   max-width: 30vw;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    max-width: 60vw;
+}
 }
 #hover-image {
   display:inline-flex;
@@ -91,12 +100,22 @@
   width: 40vw;
   margin-left: -32vw;
   position: absolute;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    margin-top: 6vh;
+    margin-left: -42vw;
+    font-size: 30px;
+}
 }
 .right-skills-container{
   display: inline-block;
   width: 25vw;
   margin-left: -2.5vw;
   position: absolute;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    font-size: 30px;
+    margin-top: 4.5vh;
+    margin-left: 10vw;
+}
 }
 .right2-skills-container{
   display: inline-block;
@@ -104,18 +123,27 @@
   margin-left: 2vw;
   position: absolute;
   margin-top: 10vh;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    font-size: 25px;
+    margin-left: 10vw;
+    margin-top: 7vh;
+}
 }
 #softBlock{
   font-size: 25px;
   font-weight: lighter;
   color:#363636;
   padding: 60px;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+    font-size: 35px;
+    margin-top: 20px;
+  }
 }
 
 .info-box{
   margin-left: -3vw;
 }
-
+}
 .exp-container{
   height: 100vh;
   border-bottom: 0.5px solid #d3d3d3;
@@ -160,21 +188,21 @@ nav{
   display: flex;
   justify-content: space-between;
   font-size: 140%;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
 }
 
 }
 .navbar-right{
   margin-top: 6vh;
   margin-right: 4vw;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     display: none;
   }
 }
 .navbar-left{
   margin-top: 6vh;
   margin-left: 2vw;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     display:none;
   }
 }
@@ -198,7 +226,7 @@ a:hover{
   margin-left: 10vw;
   z-index: 0;
 
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     width:45vw;
     padding-top: 12vh;
     margin-left: 25.5vw;
@@ -238,7 +266,7 @@ li{
   height: 80vh;
   border-bottom: 0.5px solid #d3d3d3;
   border-top: 0.5px solid #d3d3d3;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     height: 70vh;
 }
 
@@ -251,7 +279,7 @@ li{
   float: left;
   margin-left: 10vw;
   margin-top: 2vh;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     width: 40vw;
     margin-left: 27.5vw;
 }
@@ -261,7 +289,7 @@ li{
   margin-top: 16vh;
   margin-right: 15vw;
   width: 40vw;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
     width: 70vw;
     font-size: 13px;
     margin-top: 2vh;

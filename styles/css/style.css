@@ -7,81 +7,110 @@
   * .head-container {
     height: 62vh;
     border-bottom: 0.5px solid #d3d3d3; }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
       * .head-container {
         height: 50vh; } }
     * .head-container .head-title {
       font-size: 6vw;
       font-weight: lighter;
       margin-top: 12vh; }
-      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
         * .head-container .head-title {
           font-size: 90px;
           margin-top: 2.5vh; } }
     * .head-container .head-subtitle {
       font-size: 2vw;
       margin-top: -3vh; }
-      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
         * .head-container .head-subtitle {
           font-size: 30px;
           margin-top: -3vh; } }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
       * .head-container .title-subheading {
         margin-top: 2vh;
         font-size: 30px; } }
   * .skills-container {
     height: 80vh;
     margin-top: 5vh; }
-  * .skill-line .menu {
-    display: inline-flex;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-transform: uppercase;
-    border-right-style: solid;
-    border-width: thin;
-    border-color: #E5E5E5;
-    font-size: 18px; }
-  * .skill-line {
-    margin-left: 3vw;
-    cursor: pointer; }
-  * .skill-img {
-    max-width: 5vw;
-    min-width: 5vw; }
-  * #blueprint {
-    width: 45vw; }
-  * #small-logo {
-    max-width: 30vw; }
-  * #hover-image {
-    display: inline-flex;
-    padding: 15px; }
-  * .text {
-    font-weight: bold;
-    z-index: 1; }
-  * .hide {
-    display: none; }
-  * .left-skills-container {
-    display: inline-block;
-    width: 40vw;
-    margin-left: -32vw;
-    position: absolute; }
-  * .right-skills-container {
-    display: inline-block;
-    width: 25vw;
-    margin-left: -2.5vw;
-    position: absolute; }
-  * .right2-skills-container {
-    display: inline-block;
-    width: 25vw;
-    margin-left: 2vw;
-    position: absolute;
-    margin-top: 10vh; }
-  * #softBlock {
-    font-size: 25px;
-    font-weight: lighter;
-    color: #363636;
-    padding: 60px; }
-  * .info-box {
-    margin-left: -3vw; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+      * .skills-container {
+        height: 70vh; } }
+    * .skills-container .skill-line .menu {
+      display: inline-flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-transform: uppercase;
+      border-right-style: solid;
+      border-width: thin;
+      border-color: #E5E5E5;
+      font-size: 18px; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+        * .skills-container .skill-line .menu {
+          font-size: 30px;
+          margin-top: 5vh; } }
+    * .skills-container .skill-line {
+      margin-left: 3vw;
+      cursor: pointer; }
+    * .skills-container .skill-img {
+      max-width: 5vw;
+      min-width: 5vw; }
+    * .skills-container #blueprint {
+      width: 45vw; }
+    * .skills-container #small-logo {
+      max-width: 30vw; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+        * .skills-container #small-logo {
+          max-width: 60vw; } }
+    * .skills-container #hover-image {
+      display: inline-flex;
+      padding: 15px; }
+    * .skills-container .text {
+      font-weight: bold;
+      z-index: 1; }
+    * .skills-container .hide {
+      display: none; }
+    * .skills-container .left-skills-container {
+      display: inline-block;
+      width: 40vw;
+      margin-left: -32vw;
+      position: absolute; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+        * .skills-container .left-skills-container {
+          margin-top: 6vh;
+          margin-left: -42vw;
+          font-size: 30px; } }
+    * .skills-container .right-skills-container {
+      display: inline-block;
+      width: 25vw;
+      margin-left: -2.5vw;
+      position: absolute; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+        * .skills-container .right-skills-container {
+          font-size: 30px;
+          margin-top: 4.5vh;
+          margin-left: 10vw; } }
+    * .skills-container .right2-skills-container {
+      display: inline-block;
+      width: 25vw;
+      margin-left: 2vw;
+      position: absolute;
+      margin-top: 10vh; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+        * .skills-container .right2-skills-container {
+          font-size: 25px;
+          margin-left: 10vw;
+          margin-top: 7vh; } }
+    * .skills-container #softBlock {
+      font-size: 25px;
+      font-weight: lighter;
+      color: #363636;
+      padding: 60px; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+        * .skills-container #softBlock {
+          font-size: 35px;
+          margin-top: 20px; } }
+    * .skills-container .info-box {
+      margin-left: -3vw; }
   * .exp-container {
     height: 100vh;
     border-bottom: 0.5px solid #d3d3d3;
@@ -116,13 +145,13 @@
   * .navbar-right {
     margin-top: 6vh;
     margin-right: 4vw; }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
       * .navbar-right {
         display: none; } }
   * .navbar-left {
     margin-top: 6vh;
     margin-left: 2vw; }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
       * .navbar-left {
         display: none; } }
   * .a-nav {
@@ -140,7 +169,7 @@
     height: 23vh;
     margin-left: 10vw;
     z-index: 0; }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
       * .nav-logo {
         width: 45vw;
         padding-top: 12vh;
@@ -170,7 +199,7 @@
     height: 80vh;
     border-bottom: 0.5px solid #d3d3d3;
     border-top: 0.5px solid #d3d3d3; }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
       * .about-container {
         height: 70vh; } }
     * .about-container .about-face {
@@ -181,7 +210,7 @@
       float: left;
       margin-left: 10vw;
       margin-top: 2vh; }
-      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
         * .about-container .about-face {
           width: 40vw;
           margin-left: 27.5vw; } }
@@ -190,7 +219,7 @@
       margin-top: 16vh;
       margin-right: 15vw;
       width: 40vw; }
-      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
         * .about-container .about-dev {
           width: 70vw;
           font-size: 13px;
