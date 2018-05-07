@@ -1,278 +1,41 @@
-/* Testing a push */
 *{
   font-family: 'Playfair Display', serif;
   background-color:#fbfafa;
   // box-sizing: border-box;
 
-
-.container{
-  text-align: center;
-}
-  .head-container{
-    height: 62vh;
-    border-bottom: 0.5px solid #d3d3d3;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        height: 50vh;
+  .container{
+    text-align: center;
   }
 
-  .head-title{
-    font-size: 6vw;
-    font-weight: lighter;
-    margin-top: 12vh;
+
+  // NAV BAR STYLING
+    nav{
+      display: flex;
+      justify-content: space-between;
+      font-size: 140%;
       @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        font-size: 90px;
-        margin-top: 2.5vh;
-    }
-  }
-  .head-subtitle{
-    font-size: 2vw;
-    margin-top: -3vh;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        font-size: 30px;
-        margin-top: -3vh;
-    }
-  }
-  .title-subheading{
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      margin-top: 2vh;
-      font-size: 30px;
       }
-    }
-  }
 
-.skills-container{
-  height: 80vh;
-  margin-top: 5vh;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-    height:60vh;
-  }
-
-  .skill-line .menu{
-    display:inline-flex;
-      padding-left: 20px;
-      padding-right: 20px;
-      text-transform: uppercase;
-      border-right-style: solid;
-      border-width: thin;
-      border-color: #E5E5E5;
-      font-size: 18px;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        font-size: 30px;
-        margin-top: 5vh;
-    }
-  }
-  .skill-line{
-    margin-left: 3vw;
-    cursor: pointer;
-  }
-  .skill-img{
-    max-width: 5vw;
-    min-width: 5vw;
-  }
-
-  #blueprint{
-    width: 45vw;
-    margin-top: -20vh;
-  }
-  #small-logo{
-    max-width: 30vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      max-width: 60vw;
-    }
-  }
-  #hover-image {
-    display:inline-flex;
-    padding: 15px;
-  }
-
-  .text {
-      font-weight: bold;
-      z-index: 1;
-  }
-  .hide {
-      display: none;
-    }
-
-
-  .left-skills-container{
-    display: inline-block;
-    width: 40vw;
-    margin-left: -32vw;
-    position: absolute;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+      .navbar-right{
         margin-top: 6vh;
-        margin-left: -42vw;
-        font-size: 30px;
+        margin-right: 4vw;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+          display: none;
+        }
       }
-    }
-  .right-skills-container{
-    display: inline-block;
-    width: 25vw;
-    margin-left: -2.5vw;
-    position: absolute;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        font-size: 30px;
-        margin-top: 4.5vh;
-        margin-left: 10vw;
-    }
-  }
-  .right2-skills-container{
-    display: inline-block;
-    width: 25vw;
-    margin-left: 2vw;
-    position: absolute;
-    margin-top: 10vh;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        font-size: 25px;
-        margin-left: 10vw;
-        margin-top: 7vh;
+      .navbar-left{
+        margin-top: 6vh;
+        margin-left: 2vw;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+          display:none;
+        }
       }
-    }
-  #softBlock{
-    font-size: 25px;
-    font-weight: lighter;
-    color:#363636;
-    padding: 60px;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        font-size: 35px;
-        margin-top: 20px;
-    }
-  }
 
-  .info-box{
-    margin-left: -3vw;
-  }
-}
-
-.exp-container{
-  height: 120vh;
-  border-bottom: 0.5px solid #d3d3d3;
-  border-top: 0.5px solid #d3d3d3;
-  @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-    height:85vh;
-}
-
-  .exp-subtitle{
-    width: 80vw;
-    margin-left: 8vw;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      width: 56vw;
-      margin-top: 2.1vh;
-      font-size: 19px;
-      // padding-bottom: ;
-    }
-  }
-  .skill-line{
-    margin-top: 1vh;
-    padding: 4vh;
-    cursor: pointer;
-    display: inline-flex;
-    height:10vh;
-    .menu{
-      margin-left: 5vw;
-    }
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        font-size: 19px;
-        margin-top:-8vh;
-        padding-bottom: 5vh;
-    }
-  }
-  .proj-left{
-    float:left;
-    padding: 20px;
-    margin-left: -10vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        margin-left: 9vw;
-        width: 74vw;
-        margin-top: -4vh;
-    }
-    }
-
-  .mob-proj-left{
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      margin-top: -10vh;
-    }
-  }
-  .proj-left-text{
-    margin-top: 5vh;
-    text-align: left;
-    width: 35vw;
-    padding-left: 5vw;
-  }
-  .proj-right{
-    float: right;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      width: 74vw;
-      margin-right: 11.5vw;
-      margin-top: -30vh;
-
-  }
-  }
-  .proj-right-text{
-    margin-top: 10vh;
-    width: 35vw;
-    padding-right: 5vw;
-    text-align: left;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-
-  }
-  }
-
-  .inner-firstBlock{
-    display: inline-flex;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        display: block;
-    }
-    .proj-left-par{
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        width: 71vw;
-        text-align: center;
-        margin-left: 7vw;
+      .a-nav{
+        padding: 25px;
+        padding-left: 6vw;
+        text-decoration: none;
       }
-    }
-  }
-
-  .proj-right-par{
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      margin-top: 46vw;
-      width: 70vw;
-      margin-left: 14vw;
-    }
-  }
-
-}
-
-.contact-container{
-  margin-bottom: 5vh;
-}
-
-nav{
-  display: flex;
-  justify-content: space-between;
-  font-size: 140%;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-  }
-
-  .navbar-right{
-    margin-top: 6vh;
-    margin-right: 4vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-        display: none;
-    }
-  }
-  .navbar-left{
-    margin-top: 6vh;
-    margin-left: 2vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      display:none;
-    }
-  }
-
-  .a-nav{
-    padding: 25px;
-    padding-left: 6vw;
-    text-decoration: none;
-  }
       a:link{
         color: black;
       }
@@ -284,94 +47,357 @@ nav{
         color: #3166a9;
       }
 
-  .nav-logo{
-    width: 15vw;
-    height: 23vh;
-    margin-left: 10vw;
-    z-index: 0;
+      .nav-logo{
+        width: 15vw;
+        height: 23vh;
+        margin-left: 10vw;
+        z-index: 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+          width:45vw;
+          padding-top: 12vh;
+          margin-left: 25.5vw;
+        }
+      }
+    }
+    
+  //SECTION 1 -> LOGO
+  .head-container{
+    height: 62vh;
+    border-bottom: 0.5px solid #d3d3d3;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+      height: 50vh;
+    }
+
+    .head-title{
+      font-size: 6vw;
+      font-weight: lighter;
+      margin-top: 12vh;
       @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      width:45vw;
-      padding-top: 12vh;
-      margin-left: 25.5vw;
+        font-size: 90px;
+        margin-top: 2.5vh;
       }
-  }
-}
-li{
-  list-style-type: none;
-}
-  .contact-icon{
-    width: 5vw;
-    padding: 30px;
+    }
+
+    .head-subtitle{
+      font-size: 2vw;
+      margin-top: -3vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 30px;
+        margin-top: -3vh;
+      }
+    }
+
+    .title-subheading{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        margin-top: 2vh;
+        font-size: 30px;
+      }
+    }
+
   }
 
-  .links{
-    font-size: 20px;
-    margin-top:38vh;
-    margin-left: -4vw;
-    position: absolute;
-    text-decoration: none;
+
+//SECTION 2 -> ABOUT
+  .about-container{
+    height: 80vh;
+    border-bottom: 0.5px solid #d3d3d3;
+    border-top: 0.5px solid #d3d3d3;
     @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      font-size: 20px;
+      height: 70vh;
+    }
+
+    .about-face{
+      width: 25vw;
+      border-radius: 50%;
+      padding: 15px;
+      border: 2px solid #d3d3d3;
+      float: left;
+      margin-left: 10vw;
       margin-top: 2vh;
-      margin-left: 12vh;
-    }
-
-  .link{
-    margin-left: 8vw;
-    text-decoration: none;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      font-size: 20px;
-      }
-    }
-
-  .links2{
-    font-size: 20px;
-    margin-top:38vh;
-    margin-left: 45vw;
-    position: absolute;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      font-size: 40px;
-      margin-top: 2vh;
-      margin-left: 11vh;
-      }
-    }
-  }
-.disclaimer{
-  font-size: 15px;
-  margin-left: 5vw;
-}
-
-.about-container{
-  height: 80vh;
-  border-bottom: 0.5px solid #d3d3d3;
-  border-top: 0.5px solid #d3d3d3;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-    height: 70vh;
-  }
-
-  .about-face{
-    width: 25vw;
-    border-radius: 50%;
-    padding: 15px;
-    border: 2px solid #d3d3d3;
-    float: left;
-    margin-left: 10vw;
-    margin-top: 2vh;
       @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
         width: 40vw;
         margin-left: 27.5vw;
+      }
     }
+
+    .about-dev{
+      float: right;
+      margin-top: 16vh;
+      margin-right: 15vw;
+      width: 40vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        width: 70vw;
+        font-size: 13px;
+        margin-top: 2vh;
+      }
+    }
+
   }
-  .about-dev{
-    float: right;
-    margin-top: 16vh;
-    margin-right: 15vw;
-    width: 40vw;
+
+//SECTION 3 -> SKILLS
+  .skills-container{
+    height: 80vh;
+    margin-top: 5vh;
     @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
-      width: 70vw;
-      font-size: 13px;
-      margin-top: 2vh;
+      height:60vh;
+    }
+
+    .skill-line .menu{
+      display:inline-flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-transform: uppercase;
+      border-right-style: solid;
+      border-width: thin;
+      border-color: #E5E5E5;
+      font-size: 18px;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 30px;
+        margin-top: 5vh;
+      }
+    }
+
+    .skill-line{
+      margin-left: 3vw;
+      cursor: pointer;
+    }
+
+    .skill-img{
+      max-width: 5vw;
+      min-width: 5vw;
+    }
+
+    #blueprint{
+      width: 45vw;
+      margin-top: -20vh;
+    }
+    #small-logo{
+      max-width: 30vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        max-width: 60vw;
+      }
+    }
+    #hover-image {
+      display:inline-flex;
+      padding: 15px;
+    }
+
+    .text {
+      font-weight: bold;
+      z-index: 1;
+    }
+    .hide {
+      display: none;
+    }
+
+    .left-skills-container{
+      display: inline-block;
+      width: 40vw;
+      margin-left: -32vw;
+      position: absolute;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        margin-top: 6vh;
+        margin-left: -42vw;
+        font-size: 30px;
+      }
+    }
+
+    .right-skills-container{
+      display: inline-block;
+      width: 25vw;
+      margin-left: -2.5vw;
+      position: absolute;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 30px;
+        margin-top: 4.5vh;
+        margin-left: 10vw;
+      }
+    }
+
+    .right2-skills-container{
+      display: inline-block;
+      width: 25vw;
+      margin-left: 2vw;
+      position: absolute;
+      margin-top: 10vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 25px;
+        margin-left: 10vw;
+        margin-top: 7vh;
+      }
+    }
+
+    #softBlock{
+      font-size: 25px;
+      font-weight: lighter;
+      color:#363636;
+      padding: 60px;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 35px;
+        margin-top: 20px;
+      }
+    }
+
+    .info-box{
+      margin-left: -3vw;
     }
   }
-}
+
+//SECTION 4 -> EXPERIENCE
+  .exp-container{
+    height: 120vh;
+    border-bottom: 0.5px solid #d3d3d3;
+    border-top: 0.5px solid #d3d3d3;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+      height:68vh;
+    }
+
+    .exp-subtitle{
+      width: 80vw;
+      margin-left: 8vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        width: 69vw;
+        margin-top: 2.1vh;
+        font-size: 19px;
+        margin-left: 16vw;
+      }
+    }
+
+    .skill-line{
+      margin-top: 1vh;
+      padding: 4vh;
+      cursor: pointer;
+      display: inline-flex;
+      height:10vh;
+      .menu{
+        margin-left: 5vw;
+      }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 19px;
+        margin-top:-8vh;
+        padding: 0;
+      }
+    }
+
+    .proj-left{
+      float:left;
+      padding: 20px;
+      margin-left: -10vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        margin-left: 9vw;
+        width: 74vw;
+        margin-top: -4vh;
+      }
+    }
+
+    .mob-proj-left{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        margin-top: -10vh;
+      }
+    }
+
+    .proj-left-text{
+      margin-top: 5vh;
+      text-align: left;
+      width: 35vw;
+      padding-left: 5vw;
+    }
+
+    .proj-right{
+      float: right;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        width: 74vw;
+        margin-right: 11.5vw;
+        margin-top: -30vh;
+      }
+    }
+
+    .proj-right-text{
+      margin-top: 10vh;
+      width: 35vw;
+      padding-right: 5vw;
+      text-align: left;
+    }
+
+    .inner-firstBlock{
+      display: inline-flex;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        display: block;
+      }
+      .proj-left-par{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+          width: 71vw;
+          text-align: center;
+          margin-left: 7vw;
+        }
+      }
+    }
+
+    .proj-right-par{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        margin-top: 46vw;
+        width: 70vw;
+        margin-left: 14vw;
+      }
+    }
+
+    .middleBlock{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        margin-top: -6vh;
+      }
+    }
+
+    .links{
+      margin-top:36vh;
+      margin-left: 7vw;
+      position: absolute;
+      text-decoration: none;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 24px;
+        margin-top: 2vh;
+        margin-left: 14vh;
+      }
+    }
+
+    .links2{
+      margin-left: 40vw;
+      margin-top: 4vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
+        font-size: 40px;
+        margin-top: 2vh;
+        margin-left: -3vh;
+      }
+    }
+
+    .link{
+      margin-left: 5vw;
+      font-size: 24px;
+      text-decoration: none;
+      font-family: 'EB Garamond', serif;
+    }
+  }
+
+  li{
+    list-style-type: none;
+  }
+  li:hover{
+    color: #3166a9;
+  }
+
+  .disclaimer{
+    font-size: 15px;
+    margin-left: 5vw;
+  }
+
+
+  .contact-container{
+    margin-bottom: 2vh;
+    .contact-para{
+      font-family: 'EB Garamond', serif;
+    }
+    .contact-icon{
+      width: 5vw;
+      padding: 20px;
+    }
+  }
 }
