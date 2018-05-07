@@ -115,6 +115,9 @@
     height: 100vh;
     border-bottom: 0.5px solid #d3d3d3;
     border-top: 0.5px solid #d3d3d3; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+      * .exp-container {
+        height: 85vh; } }
     * .exp-container .exp-subtitle {
       width: 80vw;
       margin-left: 8vw; }
