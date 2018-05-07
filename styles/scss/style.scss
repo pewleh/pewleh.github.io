@@ -2,6 +2,7 @@
 *{
   font-family: 'Playfair Display', serif;
   background-color:#fbfafa;
+  // box-sizing: border-box;
 }
 
 .container{
@@ -15,13 +16,23 @@
   font-size: 6vw;
   font-weight: lighter;
   margin-top: 12vh;
+  @media(max-width: 414px){
+    font-size: 50px;
+    margin-top: -1vh;
+  }
 }
 .head-subtitle{
   font-size: 2vw;
   margin-top: -3vh;
+  @media(max-width: 414px){
+    font-size: 16px;
+    margin-top: -3vh;
+  }
 }
 .title-subheading{
-
+@media(max-width: 414px){
+  margin-top: 5vh;
+}
 }
 
 .skills-container{
@@ -143,15 +154,23 @@
 nav{
   display: flex;
   justify-content: space-between;
-  font-size: 140%
+  font-size: 140%;
+
 }
 .navbar-right{
   margin-top: 6vh;
   margin-right: 4vw;
+  @media(max-width: 414px){
+    font-size: 50%;
+    float: right;
+    z-index: 1;
+    display:none;
+  }
 }
 .navbar-left{
   margin-top: 6vh;
   margin-left: 2vw;
+  display:none;
 }
 .a-nav{
   padding: 25px;
@@ -171,7 +190,15 @@ a:hover{
   width: 15vw;
   height: 23vh;
   margin-left: 10vw;
+  z-index: 0;
+
+  @media(max-width: 416px){
+    width:50vw;
+    margin-top: 12vh;
+    margin-left: 22.5vw;
+  }
 }
+
 li{
   list-style-type: none;
 }
