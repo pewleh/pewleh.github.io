@@ -80,7 +80,7 @@
 
   //SECTION 1 -> LOGO
   .head-container{
-    height: 62vh;
+    height: 63vh;
     border-bottom: 0.5px solid #d3d3d3;
     @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
       height: 50vh;
@@ -117,7 +117,7 @@
 
 //SECTION 2 -> ABOUT
   .about-container{
-    height: 80vh;
+    height: 90vh;
     border-bottom: 0.5px solid #d3d3d3;
     border-top: 0.5px solid #d3d3d3;
     @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
@@ -164,7 +164,7 @@
 
 //SECTION 3 -> SKILLS
   .skills-container{
-    height: 80vh;
+    height: 90vh;
     margin-top: 5vh;
     @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
       height:60vh;
@@ -190,6 +190,7 @@
 
     .skill-line{
       margin-left: 3vw;
+      margin-top: 6vh;
       cursor: pointer;
     }
 
@@ -199,10 +200,6 @@
       min-width: 5vw;
     }
 
-    #blueprint{
-      width: 45vw;
-      margin-top: -20vh;
-    }
     #small-logo{
       max-width: 30vw;
       @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
@@ -225,7 +222,7 @@
     .left-skills-container{
       display: inline-block;
       width: 40vw;
-      margin-left: -32vw;
+      margin-left: -36vw;
       position: absolute;
       @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
         margin-top: 6vh;
@@ -237,7 +234,7 @@
     .right-skills-container{
       display: inline-block;
       width: 25vw;
-      margin-left: -2.5vw;
+      margin-left: 2.5vw;
       position: absolute;
       @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
         font-size: 30px;
@@ -299,7 +296,7 @@
     }
 
     .skill-line{
-      margin-top: 1vh;
+      margin-top: 2vh;
       padding: 4vh;
       cursor: pointer;
       display: inline-flex;
@@ -341,9 +338,7 @@
       width: 35vw;
       padding-left: 5vw;
 
-
     }
-
 
     .proj-right{
       float: right;
@@ -397,7 +392,7 @@
 
     .links{
       margin-top:36vh;
-      margin-left: 7vw;
+      margin-left: -7.5vw;
       position: absolute;
       text-decoration: none;
       @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
@@ -429,6 +424,12 @@
     .link:hover{
       color: #3166a9;
     }
+  }
+
+  img#blueprint{
+    position: absolute;
+    margin-left: -50vw;
+    margin-top: 15vh;
   }
 
   li{

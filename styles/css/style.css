@@ -59,7 +59,7 @@
           height: 345px;
           margin-left: 22vh; } }
   * .head-container {
-    height: 62vh;
+    height: 63vh;
     border-bottom: 0.5px solid #d3d3d3; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
       * .head-container {
@@ -84,7 +84,7 @@
         margin-top: 2vh;
         font-size: 30px; } }
   * .about-container {
-    height: 80vh;
+    height: 90vh;
     border-bottom: 0.5px solid #d3d3d3;
     border-top: 0.5px solid #d3d3d3; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
@@ -123,7 +123,7 @@
         * .about-container .about-dev {
           font-size: 20px; } }
   * .skills-container {
-    height: 80vh;
+    height: 90vh;
     margin-top: 5vh; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
       * .skills-container {
@@ -146,13 +146,11 @@
           margin-top: 5vh; } }
     * .skills-container .skill-line {
       margin-left: 3vw;
+      margin-top: 6vh;
       cursor: pointer; }
     * .skills-container .skill-img {
       max-width: 5vw;
       min-width: 5vw; }
-    * .skills-container #blueprint {
-      width: 45vw;
-      margin-top: -20vh; }
     * .skills-container #small-logo {
       max-width: 30vw; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
@@ -169,7 +167,7 @@
     * .skills-container .left-skills-container {
       display: inline-block;
       width: 40vw;
-      margin-left: -32vw;
+      margin-left: -36vw;
       position: absolute; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
         * .skills-container .left-skills-container {
@@ -179,7 +177,7 @@
     * .skills-container .right-skills-container {
       display: inline-block;
       width: 25vw;
-      margin-left: -2.5vw;
+      margin-left: 2.5vw;
       position: absolute; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
         * .skills-container .right-skills-container {
@@ -228,7 +226,7 @@
           font-size: 19px;
           margin-left: 16vw; } }
     * .exp-container .skill-line {
-      margin-top: 1vh;
+      margin-top: 2vh;
       padding: 4vh;
       cursor: pointer;
       display: inline-flex;
@@ -299,7 +297,7 @@
         margin-top: -6vh; } }
     * .exp-container .links {
       margin-top: 36vh;
-      margin-left: 7vw;
+      margin-left: -7.5vw;
       position: absolute;
       text-decoration: none; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
@@ -325,6 +323,10 @@
       font-family: 'EB Garamond', serif; }
     * .exp-container .link:hover {
       color: #3166a9; }
+  * img#blueprint {
+    position: absolute;
+    margin-left: -50vw;
+    margin-top: 15vh; }
   * li {
     list-style-type: none; }
   * .disclaimer {
