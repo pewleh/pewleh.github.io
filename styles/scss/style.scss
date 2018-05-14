@@ -297,6 +297,7 @@
 
     .skill-line{
       margin-top: 2vh;
+      margin-bottom: -5vh;
       padding: 4vh;
       cursor: pointer;
       display: inline-flex;
@@ -391,8 +392,8 @@
     }
 
     .links{
-      margin-top:36vh;
-      margin-left: -7.5vw;
+      margin-top:42vh;
+      margin-left: -5.5vw;
       position: absolute;
       text-decoration: none;
       @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
@@ -430,6 +431,10 @@
     position: absolute;
     margin-left: -50vw;
     margin-top: 15vh;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      margin-left: -63vw;
+      margin-top: 6vh;
+    }
   }
 
   li{
