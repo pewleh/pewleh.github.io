@@ -29,6 +29,7 @@
         }
         @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
           margin-top: 68vh;
+          display: none;// for the moment
         }
       }
       .navbar-left{
@@ -42,6 +43,7 @@
         }
         @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
           margin-top: 68vh;
+          display: none;//for the moment
       }
     }
       .a-nav{
