@@ -1,470 +1,113 @@
 *{
+  background-color: #fbfafa;
   font-family: 'Playfair Display', serif;
-  background-color:#fbfafa;
-  // box-sizing: border-box;
+}
+//START HERO//
+//Nav bar
+nav { width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
 
-  .container{
-    text-align: center;
+  .nav-logo{width:200px; display: block; margin: auto; margin-top: 10px;}
+  a{text-decoration: none;}
+  a:link{color: black;}
+  a:visited{color: black;}
+  a:hover{color: #3166a9;}
+
+  .navbar-left{
+    width: 40%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-right{
+  width: 40%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 950px){a{display: none} .nav-logo{width: 250px;}}
+}
+//HEADER
+.head-container{
+  display: block;
+  text-align: center;
+  margin-top: -250px;
+  padding-bottom: 160px;
+  border-bottom: 0.5px solid #d3d3d3;
+  .head-title{
+    font-size: 68px;
+    font-weight: lighter;
   }
-
-
-  // NAV BAR STYLING
-    nav{
-      display: flex;
-      justify-content: space-between;
-      font-size: 140%;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-      }
-      header{
-        display: inline-flex;
-      }
-      .navbar-right{
-        margin-top: 6vh;
-        margin-right: 4vw;
-        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-          margin-top: 56vh;
-          position: absolute;
-          font-size: 18px;
-          margin-left: 10vw;
-        }
-        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-          margin-top: 68vh;
-          display: none;// for the moment
-        }
-      }
-      .navbar-left{
-        margin-top: 6vh;
-        margin-left: 2vw;
-        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-          margin-top: 56vh;
-          position: absolute;
-          margin-left: 52vw;
-          font-size: 18px;
-        }
-        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-          margin-top: 68vh;
-          display: none;//for the moment
-      }
-    }
-      .a-nav{
-        padding: 25px;
-        padding-left: 6vw;
-        text-decoration: none;
-      }
-      a:link{
-        color: black;
-      }
-      a:visited{
-        color: black;
-
-      }
-      a:hover{
-        color: #3166a9;
-      }
-
-      .nav-logo{
-        width: 15vw;
-        height: 23vh;
-        margin-left: 10vw;
-        z-index: 0;
-        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-          width:45vw;
-          padding-top: 12vh;
-          margin-left: 25.5vw;
-        }
-        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-          width: 394px;
-          height: 345px;
-           margin-left: 22vh;
-        }
-      }
-    }
-
-  //SECTION 1 -> LOGO
-  .head-container{
-    height: 63vh;
-    border-bottom: 0.5px solid #d3d3d3;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-      height: 50vh;
-    }
-
-    .head-title{
-      font-size: 6vw;
-      font-weight: lighter;
-      margin-top: 12vh;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 90px;
-        margin-top: 2.5vh;
-      }
-    }
-
-    .head-subtitle{
-      font-size: 2vw;
-      margin-top: -3vh;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 30px;
-        margin-top: -3vh;
-      }
-    }
-
-    .title-subheading{
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        margin-top: 2vh;
-        font-size: 30px;
-      }
-    }
-
+  .head-subtitle{
+    margin-top: -30px;
   }
+}
+//END OF HERO//
+//START OF ABOUT//
+.about-container{
+  text-align: center;
+  border-bottom: 0.5px solid #d3d3d3;
+  font-size: 17px;
+  font-weight: lighter;
+  height: 650px;
+  border-bottom: 0.5px solid #d3d3d3;
+  border-top: 0.5px solid #d3d3d3;
 
+  .about-title{padding-bottom: 20px;}
+}
+//
+img{
+  width: 360px;
+  border-radius: 50%;
+  padding-left: 15px;
+  border: 2px solid #d3d3d3;
+  float: left;
+  margin-left: 10vw;
+  margin-top: -40px;;
+}
+.about-face{
+  width: 25vw;
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid #d3d3d3;
+  float: left;
 
-//SECTION 2 -> ABOUT
-  .about-container{
-    height: 90vh;
-    border-bottom: 0.5px solid #d3d3d3;
-    border-top: 0.5px solid #d3d3d3;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-      height: 70vh;
-    }
-    @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-      height: 80vh;
-    }
+  margin-top: 2vh;
+}
+.about-dev{
+  float: right;
+  margin-top: 16vh;
+  margin-right: 15vw;
+  width: 40vw;
+}
+@media only screen and (max-width: 960px){
+.about-container{height:1000px; }
+.about-face{margin-left: 35%;}
+.about-dev{margin: 0; margin-right: 30%; margin-top: 11px;}
+}
+@media only screen and (max-width: 537px){
+  .about-container{height:1100px; }
+}
 
-    .about-face{
-      width: 25vw;
-      border-radius: 50%;
-      padding: 15px;
-      border: 2px solid #d3d3d3;
-      float: left;
-      margin-left: 10vw;
-      margin-top: 2vh;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        width: 40vw;
-        margin-left: 27.5vw;
-      }
-      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-        width:35vw;
-        margin-left: 22vh;
-      }
-    }
-
-    .about-dev{
-      float: right;
-      margin-top: 16vh;
-      margin-right: 15vw;
-      width: 40vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        width: 70vw;
-        font-size: 13px;
-        margin-top: 2vh;
-      }
-      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-          font-size: 20px;
-      }
-    }
-
+.contact-container{
+  margin-bottom: 2vh;
+  text-align: center;
+  .contact-para{
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 60px;
   }
-
-//SECTION 3 -> SKILLS
-  .skills-container{
-    height: 90vh;
-    margin-top: 5vh;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-      height:60vh;
-    }
-    @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-      height: 75vh;
-    }
-
-    .skill-line .menu{
-      display:inline-flex;
-      padding-left: 20px;
-      padding-right: 20px;
-      text-transform: uppercase;
-      border-right-style: solid;
-      border-width: thin;
-      border-color: #E5E5E5;
-      font-size: 18px;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 30px;
-        margin-top: 5vh;
-      }
-    }
-
-    .skill-line{
-      margin-left: 3vw;
-      margin-top: 6vh;
-      cursor: pointer;
-    }
-
-
-    .skill-img{
-      max-width: 5vw;
-      min-width: 5vw;
-    }
-
-    #small-logo{
-      max-width: 30vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        max-width: 60vw;
-      }
-    }
-    #hover-image {
-      display:inline-flex;
-      padding: 15px;
-    }
-
-    .text {
-      font-weight: bold;
-      z-index: 1;
-    }
-    .hide {
-      display: none;
-    }
-
-    .left-skills-container{
-      display: inline-block;
-      width: 40vw;
-      margin-left: -36vw;
-      position: absolute;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        margin-top: 6vh;
-        margin-left: -42vw;
-        font-size: 30px;
-      }
-    }
-
-    .right-skills-container{
-      display: inline-block;
-      width: 25vw;
-      margin-left: 2.5vw;
-      position: absolute;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 30px;
-        margin-top: 4.5vh;
-        margin-left: 10vw;
-      }
-    }
-
-    .right2-skills-container{
-      display: inline-block;
-      width: 25vw;
-      margin-left: 2vw;
-      position: absolute;
-      margin-top: 10vh;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 25px;
-        margin-left: 10vw;
-        margin-top: 7vh;
-      }
-    }
-
-    #softBlock{
-      font-size: 25px;
-      font-weight: lighter;
-      color:#363636;
-      padding: 60px;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 35px;
-        margin-top: 20px;
-      }
-    }
-
-    .info-box{
-      margin-left: -3vw;
-    }
+  .contact-grid{
+    margin-left: 18%;
   }
-
-//SECTION 4 -> EXPERIENCE
-  .exp-container{
-    height: 120vh;
-    border-bottom: 0.5px solid #d3d3d3;
-    border-top: 0.5px solid #d3d3d3;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-      height:68vh;
-    }
-    @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-      height: 120vw;
-    }
-
-    .exp-subtitle{
-      width: 80vw;
-      margin-left: 8vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        width: 69vw;
-        margin-top: 2.1vh;
-        font-size: 19px;
-        margin-left: 16vw;
-      }
-    }
-
-    .skill-line{
-      margin-top: 2vh;
-      margin-bottom: -5vh;
-      padding: 4vh;
-      cursor: pointer;
-      display: inline-flex;
-      height:10vh;
-      .menu{
-        margin-left: 4.3vw;
-        font-size: 18px;
-      }
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 19px;
-        margin-top:-8vh;
-        padding: 0;
-      }
-    }
-
-    .proj-left{
-      float:left;
-      padding: 20px;
-      margin-left: -10vw;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        margin-left: 9vw;
-        width: 74vw;
-        margin-top: -4vh;
-      }
-      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-        margin-left: 10vw;
-      }
-    }
-
-    .mob-proj-left{
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        margin-top: -10vh;
-      }
-    }
-
-    .proj-left-text{
-      margin-top: 5vh;
-      text-align: left;
-      width: 35vw;
-      padding-left: 5vw;
-
-    }
-
-    .proj-right{
-      float: right;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        width: 74vw;
-        margin-right: 11.5vw;
-        margin-top: -30vh;
-      }
-      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-        margin-top: -40vh;
-      }
-    }
-
-    .proj-right-text{
-      margin-top: 10vh;
-      width: 35vw;
-      padding-right: 5vw;
-      text-align: left;
-    }
-
-    .inner-firstBlock{
-      display: inline-flex;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        display: block;
-      }
-      .proj-left-par{
-        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-          width: 71vw;
-          text-align: center;
-          margin-left: 7vw;
-        }
-        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-          margin-left: 8.5vw;
-        }
-      }
-    }
-
-    .proj-right-par{
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        margin-top: 46vw;
-        width: 70vw;
-        margin-left: 14vw;
-      }
-    }
-
-    .middleBlock{
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        margin-top: -3vh;
-      }
-    }
-
-    .links{
-      margin-top:42vh;
-      margin-left: -5.5vw;
-      position: absolute;
-      text-decoration: none;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 24px;
-        margin-top: 2vh;
-        margin-left: 14vh;
-      }
-      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-        margin-left: 25.5vw;
-      }
-    }
-
-    .links2{
-      margin-left: 40vw;
-      margin-top: 4vh;
-      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-        font-size: 40px;
-        margin-top: 2vh;
-        margin-left: -3vh;
-      }
-    }
-
-    .link{
-      margin-left: 5vw;
-      font-size: 24px;
-      text-decoration: none;
-      font-family: 'EB Garamond', serif;
-    }
-    .link:hover{
-      color: #3166a9;
-    }
+  .contact-icon{
+    width: 50px;
+    padding: 20px;
   }
-
-  img#blueprint{
-    position: absolute;
-    margin-left: -50vw;
-    margin-top: 15vh;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-      margin-left: -63vw;
-      margin-top: 6vh;
-    }
-  }
-
-  li{
-    list-style-type: none;
-  }
-
-
-  .disclaimer{
-    font-size: 15px;
-    margin-left: 5vw;
-  }
-
-
-  .contact-container{
-    margin-bottom: 2vh;
-    .contact-para{
-      font-family: 'EB Garamond', serif;
-      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
-        font-size: 20px;
-      }
-    }
-    .contact-icon{
-      width: 5vw;
-      padding: 20px;
-    }
-  }
-  //Features
-  .menu:hover{
-    color: #3166a9;
+}
+@media only screen and (max-width: 960px){
+.contact-container  .contact-grid{
+    margin-left: 5%;
   }
 }

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pewleh</title>
+
+    <link rel="icon" href="images/logo.png" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|EB+Garamond" rel="stylesheet">
+     <link rel="stylesheet" href="./styles/css/style.css">
+    <script src="app.js" charset="utf-8"></script>
+
+  </head>
+  <header id='header'>
+    <nav>
+      <div class="navbar-left">
+        <a class="a-nav" href="#about">A b o u t</a>
+        <a class="a-nav" href="#skills">S k i l l s</a>
+      </div>
+      <img class="nav-logo" src="images/logo.png">
+      <div class="navbar-right">
+        <a class="a-nav" href="#experience">E x p e r i e n c e</a>
+      <a class="a-nav" href="#contact">C o n t a c t</a>
+    </nav>
+  </header>
+
+  <body>
+    <div class="container">
+      <div class="head-container">
+        <h1 class="head-title"> P E W L E H </h1>
+        <h2 class="head-subtitle">Full Stack Developer</h2>
+        <div class="row center">
+          <h3 class="title-subheading"></h3>
+        </div>
+      </div>
+
+      <div class="about-container" id="about">
+        <h1 class="about-title">A b o u t &nbsp; m e</h1>
+        <img src="images/me.png" alt="me!" class="about-face">
+        <div class="about-dev">
+        <h2> My name's Paula and I'm a Developer.</h2>
+        <p>As an individual I am intuitively creative. I find that in coding I
+          experience the same feeling of accomplishment as I would from painting
+          or cooking. <br> A desire to grow that stems from a devotion in the craft.
+          <br><br>My time studying at General Assembly has allowed me to solidify my
+          interest in Web Development. I’m enticed by how mentally stimulating a
+          career this is  - constantly developing technology that I can learn from and contribute to </p>
+        </div>
+      </div>
+
+      <div class="skills-container" id="skills">
+        <h1 class="skills-title">S k i l l s</h1>
+        <div class="info-box">
+          <div class="skill-line">
+            <div id="frontEnd" class="menu">Front End</div>
+            <div id="backEnd" class="menu">Back End</div>
+            <div id="softSkills" class="menu">Soft Skills</div>
+          </div>
+
+          <img id="small-logo" src="images/tool-box.png" alt="tool-box">
+          <div id="frontBlock" class="middleBlock">
+            <div class="leftblock">
+             <ul>
+              <div class="left-skills-container">
+                <li>Languages <br><br>
+                  <div id="hover-image">
+                    <div class="text hide">HTML 5</div>
+                    <a><img src="images/html5.png" alt="HTML5" class="skill-img"></a>
+                    </div>
+                    <div id="hover-image">
+                      <div class="text hide">CSS 3</div>
+                      <a><img src="images/css3.png" alt="CSS3" class="skill-img"></a>
+                    </div>
+                    <div id="hover-image">
+                      <div class="text hide">JavaScript</div>
+                      <a><img src="images/js.png" alt="JavaScript" class="skill-img"></a>
+                   </div>
+               </li>
+             <br>
+               <li>Styling<br><br>
+                <div id="hover-image">
+                  <div class="text hide">SCSS</div>
+                  <a><img src="images/scss.png" alt="SCSS" class="skill-img"></a>
+                </div>
+                <div id="hover-image">
+                  <div class="text hide">Bulma</div>
+                  <a><img src="images/bulma.png" alt="JavaScript" class="skill-img"></a>
+                </div>
+               </li><br>
+               <li>JavaScript Libraries: <br><br>
+                 <div id="hover-image">
+                  <div class="text hide">React</div> <a>
+                  <img src="images/react.png" alt="React" class="skill-img">
+                </a>
+                </div>
+                <div id="hover-image">
+                  <div class="text hide">jQuery</div> <a>
+                  <img src="images/jq.png" alt="jQuery" class="skill-img">
+                </a>
+                </div>
+              </li><br>
+              </div>
+              <div class="right-skills-container">
+              <li>Testing Framework:<br><br>
+                <div id="hover-image">
+                  <div class="text hide">Enzyme</div> <a>
+                  <img src="images/enzyme.png" alt="enzyme" class="skill-img">
+                </a>
+                </div>
+              </li><br>
+              <li>Testing:<br><br>
+                <div id="hover-image">
+                  <div class="text hide">TDD</div> <a>
+                  <img src="images/tdd.png" alt="TDD" class="skill-img">
+                </a>
+                </div>
+                <div id="hover-image">
+                  <div class="text hide">Test Coverage</div> <a>
+                  <img src="images/test-coverage.png" alt="Test Coverage" class="skill-img">
+                </a>
+                </div>
+               </li><br>
+              <li>Version control:<br><br>
+                <div id="hover-image">
+                  <div class="text hide">Git</div> <a>
+                  <img src="images/git.svg" alt="Git" class="skill-img">
+                </a>
+                </div>
+              </li>
+            </div>
+            </ul>
+            </div>
+          </div>
+          <div id="backBlock" class="middleBlock">
+            <div class="leftblock">
+              <ul>
+                <div class="left-skills-container">
+                  <li>Languages:<br>
+                    <div id="hover-image">
+                      <div class="text hide">EJS</div>
+                      <a><img src="images/ejs.png" alt="EJS" class="skill-img"></a>
+                    </div>
+                  </li><br>
+                  <li>Libraries & Frameworks: <br>
+                    <div id="hover-image">
+                      <div class="text hide">Express</div>
+                      <a><img src="images/express.png" alt="Express" class="skill-img"></a>
+             </div></li><br>
+           <li>Databases:<br>
+             <div id="hover-image">
+               <div class="text hide">Mongo</div> <a>
+                 <img src="images/mongo.png" alt="Mongo" class="skill-img">
+               </a>
+             </div> </li><br>
+           </div>
+           <div class="right2-skills-container">
+           <li>Architectural Patterns:<br> MVC | OAuth | JWT | SPA | RESTful APIs</li><br><br><br>
+           <li>Testing Libraries & Frameworks:<br>
+             <div id="hover-image">
+               <div class="text hide">Mongo &nbsp; Chai</div> <a>
+                 <img src="images/mocha-chai.png" alt="Mongo &nbsp; Chai" class="skill-img">
+               </a>
+             </div> Super Test</li>
+           </div>
+        </ul>
+        </div>
+      </div>
+      <div id="softBlock" class="middleBlock">
+        <div class="leftblock">
+          <ul>
+            <li>•</li>
+            <li>Fluent in English and Polish</li><br>
+            <li>Learning Japanese, French, Italian</li><br>
+            <li>I'm a people person. The more people the better.</li><br>
+            <li>Team leadership experience</li>
+            <li>•</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  </div>
+
+
+      <div class="exp-container" id="experience">
+        <h1 class="exp-title"> E x p e r i e n c e </h1>
+        <!-- Ga logo next to title (off the side maybe) -->
+        <h2>General Assembly</h2>
+        <p class="exp-subtitle">General Assembly offers a 3 month intensive bootcamp known as WDI. The full time course creates and develops the beginning of  an informed understanding of junior software development. During the course we create 4 projects stemming from the new skills we learn. </p>
+        <div class="skill-line">
+          <div id="proj1" class="menu">Project 1</div>
+          <div id="proj2" class="menu">Project 2</div>
+          <div id="proj3" class="menu">Project 3</div>
+          <div id="proj4" class="menu">Project 4</div>
+        </div>
+        <img src="images/blueprint.png" id="blueprint" alt="blueprint">
+        <div id="firstBlock" class="middleBlock">
+         <h1>Walk in the World</h1>
+         <p>HTML | CSS | JavaScript</p>
+         <div class="inner-firstBlock">
+         <img class="proj-left" src="images/pro-1.gif">
+         <div class="proj-left-text">
+         <p class="proj-left-par">A JavaScript game built over 5 days.<br>
+           Walk in the World is an animated, single level, adventure puzzle game
+           DEMO targeted for ages 6 and above. It's designed to have short and
+           educational levels to try and inspire young kids to be more aware and
+           inquisitive about their surroundings while they're wandering the outdoors.
+           I believe it important to stimulate the minds of the young through
+           positive interactions, particularly in such dark times.
+         </p>
+       </div>
+       <div class="links">
+       <a class="link" href="https://github.com/pewleh/WDI_LDN_PROJECT1">See the code?</a>
+       <a class="link" href="https://walk-in-the-world.herokuapp.com/" target="_blank">Play the game!</a><br><p class="disclaimer"> (Please note that music begins playing immediately.)</p>
+     </div>
+     </div>
+     </div>
+       <div id="secondBlock" class="middleBlock">
+         <h1>Restau-Rant</h1>
+         <p>HTML | CSS | JavaScript | Express</p>
+       <div class="inner-firstBlock">
+         <div class="proj-right-text">
+           <p class="proj-right-par">The hint’s in the name! A site that allows you to rant about your
+             favourite restaurants. Peruse the index of locations or filter
+             through your ideal cuisine to discover exciting new places for you
+             to experience.
+
+           </p>
+         </div>
+       <img class="proj-right" src="images/pro-2.gif">
+     </div>
+     <div class="links2">
+       <a class="link" href="https://github.com/pewleh/WDI_LDN_PROJECT2">See the code?</a>
+       <a class="link" href="https://restau-rant-new.herokuapp.com/" target="_blank">Visit the site!</a>
+     </div>
+   </div>
+       <div id="thirdBlock" class="middleBlock">
+         <h1>Sky Gazer </h1>
+         <p>HTML | CSS | JavaScript |  Mongo | Express |  Angular | Node </p>
+       <div class="inner-firstBlock">
+         <img class="proj-left mob-proj-left" src="images/pro-3.gif">
+         <div class="proj-left-text" style="margin-top: 12vh;">
+          <p class="proj-left-par">Star Gazer is a web application built to create an easy and
+            convenient way for stargazing enthusiasts and laypeople alike to
+            discover celestial events which are pulled in using the Nasa api,
+            and providing appropriate and scenic locations to view them from.
+          </p>
+        </div>
+        <div class="links">
+          <a class="link" href="https://github.com/pewleh/WDI_LDN_PROJECT3">See the code?</a>
+          <a class="link" href="https://stargazerapp.herokuapp.com/#!/events" target="_blank">Visit the site!</a>
+        </div>
+        </div>
+      </div>
+         <div id="fourthBlock" class="middleBlock">
+         <h1>SketchBook</h1>
+         <p>HTML | CSS | JavaScript | Mongo | Express | React | Node</p>
+      <div class="inner-firstBlock">
+        <div class="proj-right-text">
+          <p class="proj-right-par">
+            Inspired by my lack of inspiration. As an
+            artist I find myself picking up a sketchbook and pen, holding it for
+            a while and putting it straight back down. I enjoy producing things
+            and would like to do it more consistently as art is a learnt skill
+            and only improves through practice.
+            This is where SketchBook comes to aid.
+            Weekly, a challenge is set. When a user becomes authenticated and
+            submits a piece of artwork it becomes public on the main gallery
+            where other users can view, “like” and inspire each other to get out
+            of their comfort zone.
+          </p>
+        </div>
+      <img class="proj-right" src="images/pro-4.gif">
+    </div>
+    <div class="links2">
+      <a class="link" href="https://github.com/pewleh/WDI_LDN_PROJECT4">See the code?</a>
+      <a class="link" href="https://sketch-books.herokuapp.com/" target="_blank">Visit the site!</a>
+    </div>
+    </div>
+    </div>
+      <!-- will fill this out last. (bonus content) -->
+      <!-- <div class="facts-container" id="facts">
+        <h1 class="facts-title"></h1>
+      </div> -->
+
+      <div class="contact-container">
+        <h1 class="contact-title" id="contact">C o n t a c t &nbsp; m e!</h1>
+        <p class="contact-para">If there's anything you wish to discuss, feel free to drop me and email!✨</p>
+        <a href="https://github.com/pewleh">
+          <img class="contact-icon" src="images/git.svg" alt="https://github.com/pewleh">
+        </a>
+        <a href="https://www.linkedin.com/in/paula-nowicka">
+          <img class="contact-icon" src="images/linkedin.png" alt="https://www.linkedin.com/in/paula-nowicka">
+        </a>
+        <a href="mailto:pewlehh@gmail.com">
+          <img class="contact-icon" src="images/email.png" alt="pewlehh@gmail.com">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
+
+...
+
+*{
+  font-family: 'Playfair Display', serif;
+  background-color:#fbfafa;
+  // box-sizing: border-box;
+
+  .container{
+    text-align: center;
+  }
+
+
+  // NAV BAR STYLING
+    nav{
+      display: flex;
+      justify-content: space-between;
+      font-size: 140%;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      }
+      header{
+        display: inline-flex;
+      }
+      .navbar-right{
+        margin-top: 6vh;
+        margin-right: 4vw;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+          margin-top: 56vh;
+          position: absolute;
+          font-size: 18px;
+          margin-left: 10vw;
+        }
+        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+          margin-top: 68vh;
+          display: none;// for the moment
+        }
+      }
+      .navbar-left{
+        margin-top: 6vh;
+        margin-left: 2vw;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+          margin-top: 56vh;
+          position: absolute;
+          margin-left: 52vw;
+          font-size: 18px;
+        }
+        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+          margin-top: 68vh;
+          display: none;//for the moment
+      }
+    }
+      .a-nav{
+        padding: 25px;
+        padding-left: 6vw;
+        text-decoration: none;
+      }
+      a:link{
+        color: black;
+      }
+      a:visited{
+        color: black;
+
+      }
+      a:hover{
+        color: #3166a9;
+      }
+
+      .nav-logo{
+        width: 15vw;
+        height: 23vh;
+        margin-left: 10vw;
+        z-index: 0;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+          width:45vw;
+          padding-top: 12vh;
+          margin-left: 25.5vw;
+        }
+        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+          width: 394px;
+          height: 345px;
+           margin-left: 22vh;
+        }
+      }
+    }
+
+  //SECTION 1 -> LOGO
+  .head-container{
+    height: 63vh;
+    border-bottom: 0.5px solid #d3d3d3;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      height: 50vh;
+    }
+
+    .head-title{
+      font-size: 6vw;
+      font-weight: lighter;
+      margin-top: 12vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 90px;
+        margin-top: 2.5vh;
+      }
+    }
+
+    .head-subtitle{
+      font-size: 2vw;
+      margin-top: -3vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 30px;
+        margin-top: -3vh;
+      }
+    }
+
+    .title-subheading{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        margin-top: 2vh;
+        font-size: 30px;
+      }
+    }
+
+  }
+
+
+//SECTION 2 -> ABOUT
+  .about-container{
+    height: 90vh;
+    border-bottom: 0.5px solid #d3d3d3;
+    border-top: 0.5px solid #d3d3d3;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      height: 70vh;
+    }
+    @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+      height: 80vh;
+    }
+
+    .about-face{
+      width: 25vw;
+      border-radius: 50%;
+      padding: 15px;
+      border: 2px solid #d3d3d3;
+      float: left;
+      margin-left: 10vw;
+      margin-top: 2vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        width: 40vw;
+        margin-left: 27.5vw;
+      }
+      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+        width:35vw;
+        margin-left: 22vh;
+      }
+    }
+
+    .about-dev{
+      float: right;
+      margin-top: 16vh;
+      margin-right: 15vw;
+      width: 40vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        width: 70vw;
+        font-size: 13px;
+        margin-top: 2vh;
+      }
+      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+          font-size: 20px;
+      }
+    }
+
+  }
+
+//SECTION 3 -> SKILLS
+  .skills-container{
+    height: 90vh;
+    margin-top: 5vh;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      height:60vh;
+    }
+    @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+      height: 75vh;
+    }
+
+    .skill-line .menu{
+      display:inline-flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-transform: uppercase;
+      border-right-style: solid;
+      border-width: thin;
+      border-color: #E5E5E5;
+      font-size: 18px;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 30px;
+        margin-top: 5vh;
+      }
+    }
+
+    .skill-line{
+      margin-left: 3vw;
+      margin-top: 6vh;
+      cursor: pointer;
+    }
+
+
+    .skill-img{
+      max-width: 5vw;
+      min-width: 5vw;
+    }
+
+    #small-logo{
+      max-width: 30vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        max-width: 60vw;
+      }
+    }
+    #hover-image {
+      display:inline-flex;
+      padding: 15px;
+    }
+
+    .text {
+      font-weight: bold;
+      z-index: 1;
+    }
+    .hide {
+      display: none;
+    }
+
+    .left-skills-container{
+      display: inline-block;
+      width: 40vw;
+      margin-left: -36vw;
+      position: absolute;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        margin-top: 6vh;
+        margin-left: -42vw;
+        font-size: 30px;
+      }
+    }
+
+    .right-skills-container{
+      display: inline-block;
+      width: 25vw;
+      margin-left: 2.5vw;
+      position: absolute;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 30px;
+        margin-top: 4.5vh;
+        margin-left: 10vw;
+      }
+    }
+
+    .right2-skills-container{
+      display: inline-block;
+      width: 25vw;
+      margin-left: 2vw;
+      position: absolute;
+      margin-top: 10vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 25px;
+        margin-left: 10vw;
+        margin-top: 7vh;
+      }
+    }
+
+    #softBlock{
+      font-size: 25px;
+      font-weight: lighter;
+      color:#363636;
+      padding: 60px;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 35px;
+        margin-top: 20px;
+      }
+    }
+
+    .info-box{
+      margin-left: -3vw;
+    }
+  }
+
+//SECTION 4 -> EXPERIENCE
+  .exp-container{
+    height: 120vh;
+    border-bottom: 0.5px solid #d3d3d3;
+    border-top: 0.5px solid #d3d3d3;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      height:68vh;
+    }
+    @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+      height: 120vw;
+    }
+
+    .exp-subtitle{
+      width: 80vw;
+      margin-left: 8vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        width: 69vw;
+        margin-top: 2.1vh;
+        font-size: 19px;
+        margin-left: 16vw;
+      }
+    }
+
+    .skill-line{
+      margin-top: 2vh;
+      margin-bottom: -5vh;
+      padding: 4vh;
+      cursor: pointer;
+      display: inline-flex;
+      height:10vh;
+      .menu{
+        margin-left: 4.3vw;
+        font-size: 18px;
+      }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 19px;
+        margin-top:-8vh;
+        padding: 0;
+      }
+    }
+
+    .proj-left{
+      float:left;
+      padding: 20px;
+      margin-left: -10vw;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        margin-left: 9vw;
+        width: 74vw;
+        margin-top: -4vh;
+      }
+      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+        margin-left: 10vw;
+      }
+    }
+
+    .mob-proj-left{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        margin-top: -10vh;
+      }
+    }
+
+    .proj-left-text{
+      margin-top: 5vh;
+      text-align: left;
+      width: 35vw;
+      padding-left: 5vw;
+
+    }
+
+    .proj-right{
+      float: right;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        width: 74vw;
+        margin-right: 11.5vw;
+        margin-top: -30vh;
+      }
+      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+        margin-top: -40vh;
+      }
+    }
+
+    .proj-right-text{
+      margin-top: 10vh;
+      width: 35vw;
+      padding-right: 5vw;
+      text-align: left;
+    }
+
+    .inner-firstBlock{
+      display: inline-flex;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        display: block;
+      }
+      .proj-left-par{
+        @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+          width: 71vw;
+          text-align: center;
+          margin-left: 7vw;
+        }
+        @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+          margin-left: 8.5vw;
+        }
+      }
+    }
+
+    .proj-right-par{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        margin-top: 46vw;
+        width: 70vw;
+        margin-left: 14vw;
+      }
+    }
+
+    .middleBlock{
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        margin-top: -3vh;
+      }
+    }
+
+    .links{
+      margin-top:42vh;
+      margin-left: -5.5vw;
+      position: absolute;
+      text-decoration: none;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 24px;
+        margin-top: 2vh;
+        margin-left: 14vh;
+      }
+      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+        margin-left: 25.5vw;
+      }
+    }
+
+    .links2{
+      margin-left: 40vw;
+      margin-top: 4vh;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+        font-size: 40px;
+        margin-top: 2vh;
+        margin-left: -3vh;
+      }
+    }
+
+    .link{
+      margin-left: 5vw;
+      font-size: 24px;
+      text-decoration: none;
+      font-family: 'EB Garamond', serif;
+    }
+    .link:hover{
+      color: #3166a9;
+    }
+  }
+
+  img#blueprint{
+    position: absolute;
+    margin-left: -50vw;
+    margin-top: 15vh;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      margin-left: -63vw;
+      margin-top: 6vh;
+    }
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+
+  .disclaimer{
+    font-size: 15px;
+    margin-left: 5vw;
+  }
+
+
+  .contact-container{
+    margin-bottom: 2vh;
+    .contact-para{
+      font-family: 'EB Garamond', serif;
+      @media only screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+        font-size: 20px;
+      }
+    }
+    .contact-icon{
+      width: 5vw;
+      padding: 20px;
+    }
+  }
+  //Features
+  .menu:hover{
+    color: #3166a9;
+  }
+}

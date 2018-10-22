@@ -11,44 +11,51 @@
     <script src="app.js" charset="utf-8"></script>
 
   </head>
-  <header id='header'>
+  <section id='header'>
     <nav>
       <div class="navbar-left">
-        <a class="a-nav" href="#about">A b o u t</a>
-        <a class="a-nav" href="#skills">S k i l l s</a>
+        <a href="#about">A b o u t</a>
+        <a href="#skills">S k i l l s</a>
       </div>
       <img class="nav-logo" src="images/logo.png">
       <div class="navbar-right">
-        <a class="a-nav" href="#experience">E x p e r i e n c e</a>
-      <a class="a-nav" href="#contact">C o n t a c t</a>
+        <a href="#contact">C o n t a c t</a>
+        <a href="#experience">E x p e r i e n c e</a>
+
     </nav>
-  </header>
+  </section>
 
   <body>
-    <div class="container">
-      <div class="head-container">
+    <section class="container">
+      <section class="head-container">
         <h1 class="head-title"> P E W L E H </h1>
-        <h2 class="head-subtitle">Full Stack Developer</h2>
+        <h2 class="head-subtitle">Front End Developer</h2>
+        <p>The site is currently under construction. For information about skills and experience please find my contact info down below. Thanks!</p>
         <div class="row center">
           <h3 class="title-subheading"></h3>
         </div>
-      </div>
+      </section>
 
       <div class="about-container" id="about">
         <h1 class="about-title">A b o u t &nbsp; m e</h1>
-        <img src="images/me.png" alt="me!" class="about-face">
+        <div class="image-half">
+          <img src="images/me.png" alt="me!" class="about-face">
+        </div>
         <div class="about-dev">
         <h2> My name's Paula and I'm a Developer.</h2>
-        <p>As an individual I am intuitively creative. I find that in coding I
-          experience the same feeling of accomplishment as I would from painting
-          or cooking. <br> A desire to grow that stems from a devotion in the craft.
-          <br><br>My time studying at General Assembly has allowed me to solidify my
-          interest in Web Development. I’m enticed by how mentally stimulating a
-          career this is  - constantly developing technology that I can learn from and contribute to </p>
+        <div class="about-para">
+        <p class="about-local">Based in London.</p>
+        <p>I began learning the fundamentals of web development early 2018,
+          bright eyed, bushy tailed and totally oblivious to the coding world. I strongly believe in personal growth
+          and with my fiercly competitive nature, found myself looking for a career
+          where I'd constantly be challanged in order to improve.
+           <br /></br /> I have been fortunate enough to work with one of the worlds leading tech companies and have loved every second of it. I'm excited to continue onwards and see what happens next!
+       </p>
+     </div>
         </div>
       </div>
 
-      <div class="skills-container" id="skills">
+      <!-- <div class="skills-container" id="skills">
         <h1 class="skills-title">S k i l l s</h1>
         <div class="info-box">
           <div class="skill-line">
@@ -183,8 +190,8 @@
 
       <div class="exp-container" id="experience">
         <h1 class="exp-title"> E x p e r i e n c e </h1>
-        <!-- Ga logo next to title (off the side maybe) -->
-        <h2>General Assembly</h2>
+        <!- Ga logo next to title (off the side maybe) -->
+        <!-- <h2>General Assembly</h2>
         <p class="exp-subtitle">General Assembly offers a 3 month intensive bootcamp known as WDI. The full time course creates and develops the beginning of  an informed understanding of junior software development. During the course we create 4 projects stemming from the new skills we learn. </p>
         <div class="skill-line">
           <div id="proj1" class="menu">Project 1</div>
@@ -276,7 +283,7 @@
       <a class="link" href="https://sketch-books.herokuapp.com/" target="_blank">Visit the site!</a>
     </div>
     </div>
-    </div>
+    </div> -->
       <!-- will fill this out last. (bonus content) -->
       <!-- <div class="facts-container" id="facts">
         <h1 class="facts-title"></h1>
@@ -285,6 +292,7 @@
       <div class="contact-container">
         <h1 class="contact-title" id="contact">C o n t a c t &nbsp; m e!</h1>
         <p class="contact-para">If there's anything you wish to discuss, feel free to drop me and email!✨</p>
+        <div class="contact-grid">
         <a href="https://github.com/pewleh">
           <img class="contact-icon" src="images/git.svg" alt="https://github.com/pewleh">
         </a>
@@ -296,5 +304,6 @@
         </a>
       </div>
     </div>
+    </section>
   </body>
 </html>
