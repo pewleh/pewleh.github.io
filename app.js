@@ -12,10 +12,10 @@ $(document).ready(function(){
 
   //subheading changes
   const subheadings = [
-    'Captor and saviour of spider kind',
-    'Nature Devotee',
     'Wine, Beer and Spirit Enthusiast',
     'Savoury treats > sweet',
+    'Captor and saviour of spider kind',
+    'Nature Devotee',
     'Foodie',
     'Star Gazer',
     'RPG and FPS Gamer',
