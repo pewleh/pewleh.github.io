@@ -11,18 +11,16 @@ $(document).ready(function(){
   });
 
   //subheading changes
-  const subheadings = [ 'Animal Hugger',
+  const subheadings = [
     'Captor and saviour of spider kind',
     'Nature Devotee',
     'Wine, Beer and Spirit Enthusiast',
     'Savoury treats > sweet',
-    'Art Aficionado',
     'Foodie',
     'Star Gazer',
     'RPG and FPS Gamer',
-    'I care a whole lot about a whole lot.'];
+    'I care a whole lot about a whole lot'];
   var count = 0;
-
   function changeSubHeading() {
     $('.title-subheading').fadeIn().delay(2000).fadeOut(function() {
       changeSubHeading();
@@ -32,11 +30,11 @@ $(document).ready(function(){
     }
   }
   changeSubHeading();
-  //end subheading changes
+  //
 
 
   //skill switch ->
-  $('.middleBlock').hide();
+  $('.middle-block').hide();
 
   $('#frontEnd').click(function() {
     console.log('click');
@@ -61,24 +59,7 @@ $(document).ready(function(){
   });
   //skill switch end
 
-  //skill hover text ->
-  $(document).ready(function () {
-    $('#hover-image a img').hover(function () {
-      $(this).stop().animate({
-        opacity: .4
-      }, 200);
-      $('.text').removeClass('hide');
-    }, function () {
-      $(this).stop().animate({
-        opacity: 1
-      }, 500);
-      $('.text').addClass('hide');
-    });
-  });
-  //end skill hover text
 
-
-  //will need to refactor
   //project switch->
   $('#proj1').click(function() {
     $('#blueprint').hide();

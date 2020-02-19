@@ -33,7 +33,6 @@ nav { width: 100%;
 .head-container{
   display: block;
   text-align: center;
-  margin-top: -250px;
   padding-bottom: 160px;
   border-bottom: 0.5px solid #d3d3d3;
   .head-title{
@@ -48,7 +47,6 @@ nav { width: 100%;
 //START OF ABOUT//
 .about-container{
   text-align: center;
-  border-bottom: 0.5px solid #d3d3d3;
   font-size: 17px;
   font-weight: lighter;
   height: 650px;
@@ -58,14 +56,14 @@ nav { width: 100%;
   .about-title{padding-bottom: 20px;}
 }
 //
-img{
-  width: 360px;
-  border-radius: 50%;
-  padding-left: 15px;
-  float: left;
-  margin-left: 10vw;
-  margin-top: -40px;;
-}
+// img{
+//   width: 360px;
+//   border-radius: 50%;
+//   padding-left: 15px;
+//   float: left;
+//   margin-left: 10vw;
+//   margin-top: -40px;;
+// }
 .about-face{
   width: 25vw;
   border-radius: 50%;
@@ -97,9 +95,7 @@ img{
     font-family: 'EB Garamond', serif;
     padding-bottom: 60px;
   }
-  .contact-grid{
-    margin-left: 18%;
-  }
+
   .contact-icon{
     width: 50px;
     padding: 20px;
@@ -110,3 +106,208 @@ img{
     margin-left: 5%;
   }
 }
+//END OF ABOUT
+
+//START OF SKILLS
+.skills-container{
+  height: 800px;
+  text-align: center;
+.skills-logo{
+  width: 450px;
+}
+  @media only screen and (max-width: 1080px){
+    .skill-line .menu{
+      margin-left: 20vw;
+    }
+  }
+  .skill-line{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 32px 32px;
+    cursor: pointer;
+  }
+  .middle-block{
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .icon{
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 150%;
+    margin: 20px;
+    position: relative;
+  }
+  .icon .tooltip {
+    visibility: hidden;
+    font-size: 15px;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125px;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .icon .tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+
+  .icon:hover .tooltip {
+    visibility: visible;
+  }
+
+
+  .skill-icon{
+    width: 100px;
+  }
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.left-block{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.patterns{
+  font-size: 20px;
+}
+  .soft-block{
+    margin-top: -110px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    color:#363636;
+    padding: 60px;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+      font-size: 35px;
+      margin-top: 20px;
+    }
+    ul{
+      list-style: none;
+    }
+  }
+  .info-box{
+    margin-left: -3vw;
+  }
+
+  //end of skills
+
+
+  //EXPERIENCE:
+  //SECTION 4 -> EXPERIENCE
+    .exp-container{
+      height: 1150px;
+      border-bottom: 0.5px solid #d3d3d3;
+      border-top: 0.5px solid #d3d3d3;
+      text-align: center;
+      .exp-subtitle{
+        width: 80vw;
+        margin-left: 8vw;
+
+      }
+      .skill-line{
+        padding: 20px;
+        margin-left: -72px;
+        cursor: pointer;
+        display: inline-flex;
+        .menu{
+          margin-left: 50px;
+          font-size: 18px;
+        }
+
+      }
+      .proj-left{
+        float:left;
+        padding: 20px;
+        margin-left: -10vw;
+      }
+      .proj-left-text{
+        margin-top: 5vh;
+        text-align: left;
+        width: 35vw;
+        padding-left: 5vw;
+      }
+
+      .proj-right{
+        float: right;
+      }
+      .proj-right-text{
+        margin-top: 10vh;
+        width: 35vw;
+        padding-right: 5vw;
+        text-align: left;
+      }
+
+      .inner-firstBlock{
+        display: inline-flex;
+      }
+
+      .links{
+        margin-top:42vh;
+        margin-left: -5.5vw;
+        position: absolute;
+        text-decoration: none;
+
+      }
+      .links2{
+        margin-left: 40vw;
+        margin-top: 4vh;
+
+      }
+      .link{
+        color: black;
+        margin-left: 65px;
+        font-size: 24px;
+        text-decoration: none;
+        font-family: 'EB Garamond', serif;
+      }
+      .link:hover{
+        color: #3166a9;
+      }
+    }
+    .experience-item{
+      margin-top: 100px;
+    }
+    .work-experience{
+      display: flex;
+      justify-content: space-between;
+      margin-left: -100px;
+    }
+    .experience-item-2{
+      margin-left: -200px
+    }
+    .description-half{
+      width: 50%;
+      margin: 0 auto;
+    }
+    img#blueprint{
+      position: absolute;
+      margin-left: -45%;
+      margin-top: 75px;
+    }
+
+    li{
+      list-style-type: none;
+    }
+
+    .disclaimer{
+      font-size: 15px;
+      margin-left: 5vw;
+    }
