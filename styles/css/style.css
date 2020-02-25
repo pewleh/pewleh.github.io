@@ -33,38 +33,6 @@ nav {
   nav .burger, nav .burger-menu {
     display: none; }
 
-@media only screen and (max-width: 950px) {
-  a {
-    display: none; }
-
-  .nav-logo {
-    width: 250px;
-    z-index: 1; }
-
-  .burger {
-    display: block; }
-    .burger img {
-      width: 60px;
-      display: block;
-      position: absolute;
-      margin-left: 20px;
-      margin-top: 10px; }
-
-  #mainnav #burger {
-    display: block; }
-
-  #mainnav .burger-menu {
-    position: absolute;
-    text-align: left;
-    margin-top: 75px;
-    z-index: 0; }
-
-  #mainnav .burger-menu .burger-item {
-    display: block; }
-
-  #mainnav .burger-menu .burger-item a {
-    display: block;
-    padding: .75em 1.5em .5em 1.5em; } }
 .head-container {
   display: block;
   text-align: center;
@@ -101,34 +69,6 @@ nav {
   margin-right: 140px;
   width: 520px; }
 
-@media only screen and (max-width: 1130px) {
-  .about-dev {
-    margin-right: 50px;
-    width: 480px; }
-
-  .about-face {
-    margin-left: 60px; } }
-@media only screen and (max-width: 960px) {
-  .image-half {
-    display: flex;
-    justify-content: center; }
-
-  .about-container {
-    height: 1000px; }
-
-  .about-face {
-    margin-left: 0; }
-
-  .about-dev {
-    margin: 0 auto;
-    margin-top: 50px;
-    float: none; } }
-@media only screen and (max-width: 540px) {
-  .about-container {
-    height: 950px; }
-
-  .about-dev {
-    margin-right: 0; } }
 .contact-container {
   padding-top: 50px;
   margin-bottom: 20px;
@@ -141,9 +81,6 @@ nav {
     width: 50px;
     padding: 20px; }
 
-@media only screen and (max-width: 960px) {
-  .contact-container .contact-grid {
-    margin-left: 5%; } }
 .skills-container {
   height: 800px;
   text-align: center; }
@@ -217,19 +154,6 @@ nav {
 .skill-icon-container {
   margin-left: -35px; }
 
-@media only screen and (max-width: 1080px) {
-  .skill-line .menu {
-    margin: 0 auto; }
-
-  .skills-container .skill-line {
-    justify-content: unset;
-    margin: 20px 0 32px 0px; } }
-@media only screen and (max-width: 960px) {
-  .skills-container {
-    height: fit-content; }
-
-  .skills-container .middle-block {
-    width: fit-content; } }
 .exp-container {
   height: 1250px;
   border-bottom: 0.5px solid #d3d3d3;
@@ -306,13 +230,46 @@ img#blueprint {
 li {
   list-style-type: none; }
 
+.disclaimer {
+  font-size: 15px;
+  margin-left: 65px; }
+
+@media only screen and (max-width: 1130px) {
+  .about-dev {
+    margin-right: 50px;
+    width: 480px; }
+
+  .about-face {
+    margin-left: 60px; } }
 @media only screen and (max-width: 1080px) {
   .description-half {
     width: 40%; }
 
   .experience-item-2 {
-    margin-left: -160px; } }
+    margin-left: -160px; }
+
+  .skill-line .menu {
+    margin: 0 auto; }
+
+  .skills-container .skill-line {
+    justify-content: unset;
+    margin: 20px 0 32px 0px; } }
 @media only screen and (max-width: 960px) {
+  .image-half {
+    display: flex;
+    justify-content: center; }
+
+  .about-container {
+    height: 1000px; }
+
+  .about-face {
+    margin-left: 0; }
+
+  .about-dev {
+    margin: 0 auto;
+    margin-top: 40px;
+    float: none; }
+
   .description-half {
     width: 80%; }
 
@@ -358,11 +315,52 @@ li {
   .exp-container .links2 {
     margin-left: -68px; }
 
+  .skills-container {
+    height: fit-content; }
+
+  .skills-container .middle-block {
+    width: fit-content; }
+
+  .contact-container .contact-grid {
+    margin-left: 5%; }
+
   img#blueprint {
     position: inherit;
     margin: 0 auto;
     width: 550px;
     margin-top: 20px; } }
+@media only screen and (max-width: 950px) {
+  .menu-item {
+    display: none; }
+
+  .nav-logo {
+    width: 250px;
+    z-index: 1; }
+
+  .burger {
+    display: block; }
+    .burger img {
+      width: 60px;
+      display: block;
+      position: absolute;
+      margin-left: -10px;
+      margin-top: 10px; }
+
+  #mainnav #burger {
+    display: block; }
+
+  #mainnav .burger-menu {
+    position: absolute;
+    text-align: left;
+    margin-top: 75px;
+    z-index: 0; }
+
+  #mainnav .burger-menu .burger-item {
+    display: block; }
+
+  #mainnav .burger-menu .burger-item a {
+    display: block;
+    padding: .75em 1.5em .5em 1.5em; } }
 @media only screen and (max-width: 790px) {
   .exp-container {
     height: fit-content;
@@ -377,8 +375,18 @@ li {
   .exp-container .proj-right-text {
     text-align: center;
     padding-left: 0; } }
-.disclaimer {
-  font-size: 15px;
-  margin-left: 65px; }
+@media only screen and (max-device-width: 600px) {
+  .about-dev {
+    font-size: larger; }
+
+  .exp-container {
+    height: 1450px;
+    font-size: larger; } }
+@media only screen and (max-width: 540px) {
+  .about-container {
+    height: 900px; }
+
+  .about-dev {
+    margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
