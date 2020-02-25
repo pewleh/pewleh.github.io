@@ -27,26 +27,27 @@ nav { width: 100%;
   display: flex;
   justify-content: space-around;
 }
-#burger, .burger-menu{display: none;}
+.burger, .burger-menu{display: none;}
 }
 @media only screen and (max-width: 950px){
   a{display: none;}
   .nav-logo{width: 250px; z-index:1;}
-  #burger{
-      display: inline;
-      img{width: 60px;
+  .burger{
+    display: block;
+      img{
+      width: 60px;
+      display: block;
       position: absolute;
       margin-left: 20px;
       margin-top: 10px;
     }
   }
-  #mainnav #menu {
+  #mainnav #burger {
        display: block;
    }
 
    #mainnav .burger-menu {
-     position: absolute;
-       display: none;
+      position: absolute;
        text-align: left;
        margin-top: 75px;
        z-index: 0;
