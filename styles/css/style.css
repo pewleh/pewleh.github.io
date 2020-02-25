@@ -64,7 +64,7 @@ nav {
   border: 2px solid #d3d3d3;
   float: left;
   margin-left: 120px;
-  margin-top: 2vh; }
+  margin-top: 30px; }
 
 .about-dev {
   float: right;
@@ -102,8 +102,10 @@ nav {
     margin-right: 0; } }
 .contact-container {
   padding-top: 50px;
-  margin-bottom: 2vh;
+  margin-bottom: 20px;
   text-align: center; }
+  .contact-container .no-decoration {
+    text-decoration: none; }
   .contact-container .contact-para {
     font-family: 'EB Garamond', serif; }
   .contact-container .contact-icon {
@@ -121,7 +123,7 @@ nav {
   .skills-container .skill-line {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0 32px 32px;
+    margin: 20px 0 32px 0px;
     cursor: pointer; }
   .skills-container .middle-block {
     width: 850px;
@@ -180,15 +182,11 @@ nav {
   font-weight: lighter;
   color: #363636;
   padding: 60px; }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-    .soft-block {
-      font-size: 35px;
-      margin-top: 20px; } }
   .soft-block ul {
     list-style: none; }
 
-.info-box {
-  margin-left: -3vw; }
+.skill-icon-container {
+  margin-left: -35px; }
 
 @media only screen and (max-width: 1080px) {
   .skill-line .menu {
@@ -196,7 +194,7 @@ nav {
 
   .skills-container .skill-line {
     justify-content: unset;
-    margin: 20px 0 32px 20px; } }
+    margin: 20px 0 32px 0px; } }
 @media only screen and (max-width: 960px) {
   .skills-container {
     height: fit-content; }
@@ -209,8 +207,8 @@ nav {
   border-top: 0.5px solid #d3d3d3;
   text-align: center; }
   .exp-container .exp-subtitle {
-    width: 80vw;
-    margin-left: 8vw; }
+    width: 80%;
+    margin: 0 auto; }
   .exp-container .skill-line {
     padding: 20px;
     margin-left: -72px;
@@ -222,29 +220,31 @@ nav {
   .exp-container .proj-left {
     float: left;
     padding: 20px;
-    margin-left: -10vw; }
+    margin-left: -150px; }
   .exp-container .proj-left-text {
-    margin-top: 5vh;
+    margin-top: 30px;
     text-align: left;
-    width: 35vw;
-    padding-left: 5vw; }
+    width: 500px;
+    padding-left: 95px; }
   .exp-container .proj-right {
     float: right; }
   .exp-container .proj-right-text {
-    margin-top: 10vh;
-    width: 35vw;
-    padding-right: 5vw;
+    margin-top: 55px;
+    width: 500px;
+    padding-right: 65px;
     text-align: left; }
   .exp-container .inner-firstBlock {
     display: inline-flex; }
   .exp-container .links {
-    margin-top: 42vh;
-    margin-left: -5.5vw;
+    margin-top: 315px;
+    margin-left: -65px;
     position: absolute;
     text-decoration: none; }
+  .exp-container .p1 {
+    margin-top: 275px; }
   .exp-container .links2 {
-    margin-left: 40vw;
-    margin-top: 4vh; }
+    margin-left: 500px;
+    margin-top: 20px; }
   .exp-container .link {
     color: black;
     margin-left: 65px;
@@ -290,12 +290,9 @@ li {
   .experience-item {
     margin-top: 0; }
 
-  .work-experience {
+  .work-experience, .experience-item-2 {
     display: block;
     margin-left: 0; }
-
-  .experience-item-2 {
-    margin-left: 0px; }
 
   .exp-container .inner-firstBlock {
     display: inline-block;
@@ -323,11 +320,7 @@ li {
   .exp-container .proj-right {
     float: inherit; }
 
-  .exp-container .links {
-    margin: 0;
-    position: inherit; }
-
-  .exp-container .links2 {
+  .exp-container .links, .links2 {
     margin: 0;
     position: inherit; }
 
@@ -341,26 +334,17 @@ li {
     height: fit-content;
     padding-bottom: 30px; }
 
-  .proj-right {
+  .proj-right, .proj-left {
     width: 450px; }
 
-  .proj-left {
-    width: 450px; }
-
-  .exp-container .links2 {
+  .exp-container .links2, .exp-container .links {
     margin-left: -55px; }
 
-  .exp-container .proj-right-text {
-    text-align: center; }
-
-  .exp-container .proj-left-text {
+  .exp-container .proj-right-text, .exp-container .proj-left-text {
     text-align: center;
-    padding-left: 0; }
-
-  .exp-container .links {
-    margin-left: -55px; } }
+    padding-left: 0; } }
 .disclaimer {
   font-size: 15px;
-  margin-left: 5vw; }
+  margin-left: 65px; }
 
 /*# sourceMappingURL=style.css.map */
