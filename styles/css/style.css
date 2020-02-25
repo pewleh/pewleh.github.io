@@ -375,8 +375,9 @@ li {
   .exp-container {
     height: fit-content;
     font-size: larger; }
-    .exp-container .inner-firstBlock {
-      padding-right: 80px; } }
+
+  .sky-gazer {
+    margin-top: 25px; } }
 @media only screen and (max-width: 540px) {
   .about-container {
     height: 900px; }
@@ -390,11 +391,12 @@ li {
     .about-container .about-title {
       font-size: 3.5em; }
     .about-container .about-face {
-      width: 550px; }
+      width: 460px; }
 
   .about-dev {
     font-size: xx-large;
-    width: 1000px; }
+    width: 720px;
+    margin-top: 10px; }
 
   .skills-container .soft-block {
     margin-top: -75px;
@@ -428,7 +430,7 @@ li {
       height: fit-content;
       margin-top: 100px; }
     .exp-container .proj-right-text {
-      width: 1000px;
+      width: 780px;
       margin-top: 55px;
       padding-right: 35px; }
     .exp-container .p1 {
@@ -453,5 +455,12 @@ li {
     font-size: x-large; }
     .contact-container .contact-icon {
       width: 80px; } }
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .about-container .about-face {
+    width: 550px; }
+
+  .about-dev {
+    width: 1000px;
+    margin-top: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
