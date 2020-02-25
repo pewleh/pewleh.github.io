@@ -343,8 +343,9 @@ nav {
   .exp-container .proj-right-text{text-align: center; padding-left: 0;}
 }
 @media only screen and (max-device-width: 600px){
-  .about-dev{font-size: larger;}
-  .exp-container{height: 1450px; font-size: larger;}
+  .about-container{height: fit-content}
+  .about-dev{font-size: x-large;}
+  .exp-container{height: fit-content; font-size: larger;}
 }
 @media only screen and (max-width: 540px){
   .about-container{height:900px; }

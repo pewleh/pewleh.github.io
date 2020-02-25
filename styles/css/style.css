@@ -376,11 +376,14 @@ li {
     text-align: center;
     padding-left: 0; } }
 @media only screen and (max-device-width: 600px) {
+  .about-container {
+    height: fit-content; }
+
   .about-dev {
-    font-size: larger; }
+    font-size: x-large; }
 
   .exp-container {
-    height: 1450px;
+    height: fit-content;
     font-size: larger; } }
 @media only screen and (max-width: 540px) {
   .about-container {
