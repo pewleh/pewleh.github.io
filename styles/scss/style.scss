@@ -218,7 +218,7 @@ nav { width: 100%;
   //EXPERIENCE:
   //SECTION 4 -> EXPERIENCE
     .exp-container{
-      height: 1150px;
+      height: 1250px;
       border-bottom: 0.5px solid #d3d3d3;
       border-top: 0.5px solid #d3d3d3;
       text-align: center;
@@ -333,8 +333,16 @@ nav { width: 100%;
       .exp-container .links{margin: 0; position: inherit;}
       .exp-container .links2{margin: 0; position: inherit;}
       img#blueprint{position: inherit;margin: 0 auto;width: 550px;margin-top: 20px;
+      }
     }
-  }
+      @media only screen and (max-width: 790px){
+        .exp-container{height: fit-content; padding-bottom: 30px;}
+        .proj-right{width: 450px;}.proj-left{width: 450px;}
+        .exp-container .links2{margin-left: -55px}
+        .exp-container .proj-right-text {text-align: center;}
+        .exp-container .proj-left-text{text-align: center; padding-left: 0;}
+        .exp-container .links{margin-left: -55px}
+      }
     .disclaimer{
       font-size: 15px;
       margin-left: 5vw;
