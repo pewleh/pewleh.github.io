@@ -101,11 +101,11 @@ nav {
   .about-dev {
     margin-right: 0; } }
 .contact-container {
+  padding-top: 50px;
   margin-bottom: 2vh;
   text-align: center; }
   .contact-container .contact-para {
-    font-family: 'EB Garamond', serif;
-    padding-bottom: 60px; }
+    font-family: 'EB Garamond', serif; }
   .contact-container .contact-icon {
     width: 50px;
     padding: 20px; }
