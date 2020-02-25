@@ -19,10 +19,10 @@ $(document).ready(function(){
     'Wine, Beer and Spirit Enthusiast',
     'Savoury treats > sweet',
     'Captor and saviour of spider kind',
-    'Nature Devotee',
-    'Foodie',
+    'Nature fan',
     'Star Gazer',
-    'RPG and FPS Gamer',
+    'FPS Gamer',
+    'Fan of the foods',
     'I care a whole lot about a whole lot'];
   var count = 0;
   function changeSubHeading() {
