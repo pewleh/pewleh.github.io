@@ -43,7 +43,7 @@ nav { width: 100%;
     margin-top: -30px;
   }
 }
-//END OF HERO//
+
 //START OF ABOUT//
 .about-container{
   text-align: center;
@@ -55,22 +55,14 @@ nav { width: 100%;
 
   .about-title{padding-bottom: 20px;}
 }
-//
-// img{
-//   width: 360px;
-//   border-radius: 50%;
-//   padding-left: 15px;
-//   float: left;
-//   margin-left: 10vw;
-//   margin-top: -40px;;
-// }
+
 .about-face{
   width: 300px;
   border-radius: 50%;
   padding: 15px;
   border: 2px solid #d3d3d3;
   float: left;
-  margin-left: 60px;
+  margin-left: 120px;
 
   margin-top: 2vh;
 }
@@ -80,13 +72,18 @@ nav { width: 100%;
   margin-right: 140px;
   width: 520px;
 }
-@media only screen and (max-width: 960px){
-.about-container{height:1000px; }
-.about-face{margin-left: 35%;}
-.about-dev{margin: 0; margin-right: 30%; margin-top: 11px;}
+@media only screen and (max-width: 1130px){
+  .about-dev{margin-right: 50px; width: 480px;}
+  .about-face{margin-left: 60px;}
 }
-@media only screen and (max-width: 537px){
-  .about-container{height:1100px; }
+@media only screen and (max-width: 960px){
+  .image-half{display: flex; justify-content: center;}
+  .about-container{height:1000px; }
+  .about-face{margin-left: 0;}
+  .about-dev{margin: 0 auto; margin-top: 50px; float: none;}
+}
+@media only screen and (max-width: 540px){
+  .about-container{height:950px; }
   .about-dev{margin-right: 0}
 }
 
@@ -117,11 +114,6 @@ nav { width: 100%;
 .skills-logo{
   width: 450px;
 }
-  @media only screen and (max-width: 1080px){
-    .skill-line .menu{
-      margin-left: 20vw;
-    }
-  }
   .skill-line{
     display: flex;
     justify-content: space-around;
@@ -209,7 +201,18 @@ nav { width: 100%;
     margin-left: -3vw;
   }
 
-  //end of skills
+  @media only screen and (max-width: 1080px){
+    .skill-line .menu{margin: 0 auto}
+    .skills-container{.skill-line{justify-content: unset;margin: 20px 0 32px 20px;}}
+  }
+  @media only screen and (max-width: 960px){
+    .skills-container{
+      height: fit-content
+    }
+    .skills-container{ .middle-block{
+      width: fit-content}
+  }
+}
 
 
   //EXPERIENCE:
@@ -301,7 +304,7 @@ nav { width: 100%;
     }
     img#blueprint{
       position: absolute;
-      margin-left: -45%;
+      margin-left: -650px;
       margin-top: 75px;
     }
 
@@ -309,6 +312,29 @@ nav { width: 100%;
       list-style-type: none;
     }
 
+
+    @media only screen and (max-width: 1080px){
+      .description-half{ width: 40%}
+      .experience-item-2{margin-left: -160px}
+    }
+    @media only screen and (max-width: 960px){
+      .description-half{ width: 80%}
+      .experience-item{margin-top: 0;}
+      .work-experience{display: block; margin-left: 0;}
+      .experience-item-2{margin-left: 0px}
+
+
+      .exp-container{.inner-firstBlock{display: inline-block; text-align: center;}}
+      .exp-container{.proj-left{float: inherit;padding: 0;margin-left: 0;}}
+      .exp-container{.proj-left-text{text-align: center; width: 80%; margin: 0 auto; padding-top: 20px;}}
+      .sky-gazer{margin-top: -50px;}
+      .exp-container .proj-right-text {width: 80%; padding: 0; margin: 0 auto;}
+      .exp-container{.proj-right{float: inherit }}
+      .exp-container .links{margin: 0; position: inherit;}
+      .exp-container .links2{margin: 0; position: inherit;}
+      img#blueprint{position: inherit;margin: 0 auto;width: 550px;margin-top: 20px;
+    }
+  }
     .disclaimer{
       font-size: 15px;
       margin-left: 5vw;
