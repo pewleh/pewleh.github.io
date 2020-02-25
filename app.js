@@ -10,6 +10,10 @@ $(document).ready(function(){
     });
   });
 
+  $('#burger').bind('click',function(){
+    $('#mainnav .burger-menu').slideToggle();
+  });
+
   //subheading changes
   const subheadings = [
     'Wine, Beer and Spirit Enthusiast',

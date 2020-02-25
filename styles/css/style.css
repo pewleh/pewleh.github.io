@@ -30,12 +30,41 @@ nav {
     padding: 30px;
     display: flex;
     justify-content: space-around; }
-  @media only screen and (max-width: 950px) {
-    nav a {
-      display: none; }
-    nav .nav-logo {
-      width: 250px; } }
+  nav #burger {
+    display: hidden; }
 
+@media only screen and (max-width: 950px) {
+  a {
+    display: none; }
+
+  .nav-logo {
+    width: 250px;
+    z-index: 1; }
+
+  #burger {
+    display: inline; }
+    #burger img {
+      width: 60px;
+      position: absolute;
+      margin-left: 20px;
+      margin-top: 10px; }
+
+  #mainnav #menu {
+    display: block; }
+
+  #mainnav .burger-menu {
+    position: absolute;
+    display: none;
+    text-align: left;
+    margin-top: 75px;
+    z-index: 0; }
+
+  #mainnav .burger-menu .burger-item {
+    display: block; }
+
+  #mainnav .burger-menu .burger-item a {
+    display: block;
+    padding: .75em 1.5em .5em 1.5em; } }
 .head-container {
   display: block;
   text-align: center;
@@ -307,22 +336,27 @@ li {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-left: 0; }
 
   .sky-gazer {
-    margin-top: -50px; }
+    margin-top: -95px; }
 
   .exp-container .proj-right-text {
     width: 80%;
     padding: 0;
+    padding-bottom: 20px;
     margin: 0 auto; }
 
   .exp-container .proj-right {
     float: inherit; }
 
   .exp-container .links, .links2 {
-    margin: 0;
+    margin: 0 0 0 -80px;
     position: inherit; }
+
+  .exp-container .links2 {
+    margin-left: -68px; }
 
   img#blueprint {
     position: inherit;
@@ -340,7 +374,7 @@ li {
   .exp-container .links2, .exp-container .links {
     margin-left: -55px; }
 
-  .exp-container .proj-right-text, .exp-container .proj-left-text {
+  .exp-container .proj-right-text {
     text-align: center;
     padding-left: 0; } }
 .disclaimer {
