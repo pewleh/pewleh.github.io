@@ -30,8 +30,8 @@ nav {
     padding: 30px;
     display: flex;
     justify-content: space-around; }
-  nav #burger {
-    display: hidden; }
+  nav #burger, nav .burger-menu {
+    display: none; }
 
 @media only screen and (max-width: 950px) {
   a {
