@@ -30,7 +30,7 @@ nav {
     padding: 30px;
     display: flex;
     justify-content: space-around; }
-  nav .burger, nav .burger-menu {
+  nav .burger, nav .burger-menu, nav .burger-item {
     display: none; }
 
 .head-container {

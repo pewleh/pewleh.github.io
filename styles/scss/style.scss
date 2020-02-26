@@ -31,7 +31,7 @@ nav {
     display: flex;
     justify-content: space-around;
   }
-  .burger, .burger-menu{display: none;}
+  .burger, .burger-menu, .burger-item{display: none;}
 }
 
 //HEADER
@@ -307,6 +307,8 @@ nav {
   img#blueprint{position: inherit;margin: 0 auto;width: 550px;margin-top: 20px;
   }
 }
+
+
 @media only screen and (max-width: 950px){
   .menu-item{display: none;}
   .nav-logo{width: 250px; z-index:1;}
